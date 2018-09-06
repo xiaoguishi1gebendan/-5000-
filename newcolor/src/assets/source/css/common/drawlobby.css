@@ -1,0 +1,316 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+
+#layout {
+	width: 100%;
+	height: 100%;
+}
+
+.header_wrap {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 200;
+}
+
+.header {
+	/*background: url(/source/imgs/images/titlebg.png) no-repeat 0 0/100% 100%;*/
+	height: 4.4rem;
+	position: relative;
+}
+
+.header h2 {
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+	font-size: 1.8rem;
+}
+
+
+/*开奖列表*/
+
+.ocontent {
+	margin-top: 4.4rem;
+	padding-bottom: 5rem;
+}
+
+.drawlist {}
+
+.drawlist li {
+	height: 9.5rem;
+	border-bottom: 0.1rem solid #eee;
+	background: #fff;
+	display: flex;
+}
+
+.drawlist li .drawimg {
+	width: 4rem;
+	height: 100%;
+	margin-left: 1.5rem;
+	margin-right: 0.45rem;
+}
+
+.drawlist li .drawimg img {
+	width: 4rem;
+	height: 4rem;
+	margin-top: 2rem;
+}
+
+.drawtext {
+	flex: 1;
+}
+
+.drawtext-top {
+	height: 2.5rem;
+	line-height: 2.5rem;
+	margin-top: 1.4rem;
+}
+
+.drawtext-top h4 {
+	font-size: 1.4rem;
+	font-weight: 500;
+	width: 10rem;
+	float: left;
+}
+
+.drawtext-top p {
+	font-size: 1rem;
+	color: #999;
+	float: left;
+}
+
+.drawtext-top p:last-child {
+	margin-right: 1.5rem;
+	float: right;
+}
+
+.drawtext-top p:last-child span {
+	margin-left: 0.45rem;
+}
+
+.drawtext-top p span {}
+
+.drawtext-bottom {
+	margin-top: 0.45rem;
+	height: 3rem;
+	line-height: 2.4rem;
+}
+
+
+.dice {
+	float: left;
+}
+
+.textShow {
+	/*font-weight: 600;*/
+	color: red;
+}
+
+.drawtext-bottom .dice img {
+	width: 2.4rem;
+	height: 2.4rem;
+	margin-left: 0.45rem;
+}
+.drawtext-bottom .dice img:first-child{
+	margin-left: 0;
+}
+.dxds {
+	color: #1a1a1a;
+	height: 2rem;
+	margin-left: 1.4rem;
+	font-size: 1.2rem;
+	line-height: 2.4rem;
+	float: right;
+	/*border:1px solid red;*/
+	
+}
+.drawtext-bottom{
+	display: flex;
+	/*border:1px solid red;*/
+	/*overflow: hidden;*/
+	/*display: flex;
+	justify-content:space-around;*/
+}
+.drawtext-bottom>span {
+	display: block;
+	width: 2.4rem;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	text-align: center;
+	float: left;
+	background: #d91e38;
+	color: #fff;
+	border-radius: 50%;
+	margin-left: 0.3rem;
+}
+
+.drawtext-bottom>span:first-child {`
+	margin-left: 0;
+}
+.drawtext-bottom>div:first-child{
+	margin-left: 0;
+}
+.drawtext-bottom p {
+	height: 2rem;
+	line-height: 2rem;
+	float: left;
+	position: relative;
+	margin-left: 1rem;
+}
+
+.drawtext-bottom p:after {
+	display: block;
+	content: '';
+	height: 1.4rem;
+	width: 0.1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #000;
+}
+
+.drawtext-bottom p .borspan {
+	padding-right: 0.4rem;
+}
+
+
+/*创建球的颜色*/
+
+.num_1 {
+	width: 100%;
+	height: 1rem;
+	font-size: 1.2rem;
+	margin-top: 3%;
+	color: red;
+}
+
+.first {
+	width: 1rem;
+	height: 10px;
+	background: #d91e38;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1rem;
+	float: left;
+	margin-left: 2%;
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+.hong,.lan,.lv,.hui{
+	width: 2.4rem;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	text-align: center;
+	float: left;
+	color: #fff;
+	border-radius: 50%;
+	margin-left: 0.1rem;
+	font-size: 1.2rem;
+/*	border:1px solid red;*/
+}
+.hong{
+	background: #d91e38;
+	
+}
+.lan {
+	background: blue;
+}
+
+.lv {
+	background: green;
+}
+
+.hui {
+	background: #919191;
+}
+
+#jia {
+	background: #fff;
+	color: #1a1a1a;
+}
+
+
+/*底部tab*/
+
+.foottab {
+	width: 100%;
+	/*background: #2d2d2d;*/
+	background-color: whitesmoke;
+	height: 5rem;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+
+.foottab ul {
+	width: 100%;
+	display: flex;
+}
+
+.foottab ul li {
+	height: 5rem;
+	width: 20%;
+}
+
+.foottab ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.foottab ul li dl {}
+
+.foottab ul li dl dt {
+	height: 2.2rem;
+	margin-top: 0.4rem;
+}
+
+.foottab ul li dl dt .dtbg {
+	width: 21px;
+	height: 21px;
+	margin: 0 auto;
+	background: url(/source/imgs/images/footer_5_02.png) no-repeat;
+	background-size: 336px auto;
+}
+
+.foottab ul li dl dd {
+	color: #999;
+	font-size: 1.2rem;
+}
+
+.foottab ul li:nth-of-type(1) dl dt .dtbg {
+	background-position: -31px -26px;
+}
+
+.foottab ul li:nth-of-type(2) dl dt .dtbg {
+	background-position: -93px -26px;
+}
+
+.foottab ul li:nth-of-type(3) dl dt .dtbg {
+	background-position: -157px -3px;
+}
+
+.foottab ul li:nth-of-type(3) dl dd {
+	/*color: #ffcc00;*/
+	color: green;
+}
+
+.foottab ul li:nth-of-type(4) dl dt .dtbg {
+	background-position: -221px -26px;
+}
+
+.foottab ul li:nth-of-type(5) dl dt .dtbg {
+	background-position: -281px -26px;
+}

@@ -1,0 +1,264 @@
+
+
+/* 以下双色球和香港六合彩的红色球颜色不能改动 */
+
+
+
+
+
+
+ .app_bgg{
+		background:linear-gradient(90deg, #3b89ed, #05bcfe) !important;
+}
+.app_border{
+	border:1px solid #3b89ed;
+}
+
+.app_color{
+		color:#3b89ed;
+}
+
+
+.header,
+.wrap-header,
+.alltext .unit .isclick,
+.header_wrap,
+.selectrule ul .isclick,
+.gocolorlist span,
+.footer .isclick,
+.footer-right,
+.loss .isclick,
+.wrap_header,
+.resumebtn,
+.ocontent .btn,
+.oheader,
+.addquebtn,
+.btn input,
+.towaybottom ul .button #btn,
+header,
+.header-wrap,
+.btn_zf,
+.nodatabtn .btn,
+.index_header,
+.userheader,
+.end .btn input,
+.details_right .btn .reg,
+.affirm input,
+.btn.isclick,
+.weui-tabbar-btn,
+.confirmbox .resumebtn,
+.foot .btn,
+.moneybox .confirmimg,
+#loginDiv .details_left img,
+.content .weui-media-box .headimg,
+div.bar-na,
+#wx_1,
+#layout .header_wrap,
+.selectorcontent span img,
+.first-one #sk_fz_1,
+.buttom,
+.main-all div:nth-of-type(1),
+.main-all h5:before,
+.yellow,
+.footergg,
+#sk_fz_2,
+.listoper1,
+.longbtn,
+.searbtn,
+.chose-class span.on,
+.details,
+.periodsmax ul li span:nth-of-type(2) div,
+.spansAll,
+.modeltop,
+.hong
+{
+    background: linear-gradient(90deg, #3b89ed, #05bcfe);;
+}
+
+.ocontent .func a, .ocontent h1, .detailtext .texttop span, .weui-dialog .weui-dialog__btn.primary, .content .logout input, .liright span, .pitch, .list #canvas, .notice #lawSpan, .moneytext p:last-child span, .bb-num span:nth-of-type(2), .loginbtn, .btn .butt:last-child, .ok, .weui-dialog .weui-dialog__btn.primary, .setpassword input:nth-of-type(2) {
+
+    color: #3b89ed;
+}
+
+
+
+.foottab ul li dl dt .dtbg {
+	background: url('../../imgs/images/bfooter_5_02.png') no-repeat;
+}
+ .foottab ul li:nth-of-type(1) a.router-link-active dl dd, .foottab ul li:nth-of-type(2) a.router-link-active dl dd, .foottab ul li:nth-of-type(3) a.router-link-active dl dd, .foottab ul li:nth-of-type(4) a.router-link-active dl dd, .foottab ul li:nth-of-type(5) a.router-link-active dl dd{
+    color: #3b89ed;
+}
+.lottery .weui-media-box__title.lo-num {
+	color: #3b89ed !important;
+}
+.on {
+    color: #3b89ed !important;
+    border-bottom: 3px solid #3b89ed;
+}
+.number_Kj li.on,.ball span.isclick,.number_Kj .ons1,.ons3{
+	background: linear-gradient(90deg, #3b89ed, #05bcfe);
+}
+ .notice .isclick{
+    background-color: linear-gradient(90deg, #3b89ed, #05bcfe) !important;
+  }
+
+    #canvas{
+    background: linear-gradient(90deg, #3b89ed, #05bcfe);;
+  }
+  .foot p{
+	color: #3b89ed;
+  }
+  
+  .ball span.isclick {
+	background: linear-gradient(90deg, #3b89ed, #05bcfe) !important;
+	color: #fff;
+} 
+
+.usercontent[data-v-5e71f308] {
+   background: linear-gradient(90deg, #3b89ed, #05bcfe);
+}
+.nav ul .isclick[data-v-4b205784] {
+    color: #3b89ed;
+    border-bottom: .02rem solid #3b89ed;
+}
+.nodatabtn .btn {
+ 
+  background: linear-gradient(90deg, #3b89ed, #05bcfe);
+}
+#homexia{
+	height:0.65rem;
+	background: url('../../imgs/images/bhomexia.png') no-repeat;
+	    background-size: 100% 0.64rem;
+}
+.ball span.lo-conright-odds  {
+	color:#3b89ed !important;
+}
+.ball span {
+	color: #3b89ed;
+}
+.buttonn{
+	background: linear-gradient(90deg, #3b89ed, #05bcfe);
+}
+.zhifubank > li > div > img{
+	background: linear-gradient(90deg, #3b89ed, #05bcfe);
+	border-radius: 50%;
+}
+.yinhangxinxi > p span:nth-child(3){
+	color: #3b89ed !important;
+    border: 1px solid #3b89ed;
+}
+.xuanzhong > ul > li > span > img{
+	background: linear-gradient(90deg, #3b89ed, #05bcfe);
+	border-radius:50%;
+}
+.navlist li.isclick{
+	color: #3b89ed !important;
+    border-bottom: .02rem solid #3b89ed !important;
+}
+.main .search > input:nth-child(2){
+	background: linear-gradient(90deg, #3b89ed, #05bcfe);
+}
+.affirm input {
+	background: linear-gradient(90deg, #3b89ed, #05bcfe);
+}
+.maintop span:nth-child(1){
+		border-bottom: 2px solid #3b89ed;
+		color:#3b89ed
+}
+
+.button{
+	background: linear-gradient(90deg, #3b89ed, #05bcfe);
+}
+.tab .spann{
+	background: linear-gradient(90deg, #3b89ed, #05bcfe);
+}
+.xuanma{
+    border: 1px solid #3b89ed;
+    color: #3b89ed;
+}
+.maintop span:nth-child(1){
+	 border-bottom: 2px solid #3b89ed;
+    color: #3b89ed;
+}
+.zingd{
+	border: 1px solid #3b89ed;
+	color: #3b89ed;
+}
+.btnbor{
+	border: 1px solid #3b89ed;
+    color: #3b89ed !important;
+}
+.nav ul .isclick {
+    color: #3b89ed !important;
+    border-bottom: 0.02rem solid #3b89ed ;
+} 
+.imgbor{
+	   background: linear-gradient(90deg, #3b89ed, #05bcfe);
+    border-radius: 50%;
+}
+.chose-class span.on{
+	  background: linear-gradient(90deg, #3b89ed, #05bcfe) !important;
+}
+.trend_nav a.on,.weui-navbar__item.weui-bar__item--on,.list .copy,.details-con-list #copy,.towaytop ul .liborder,.navlist li.isclick,.gamelisttab ul .onpitch,.gamelisttab ul .active,.nav ul .isclick{
+	color: #3b89ed !important;
+	border-bottom: 2px solid #3b89ed  !important;;
+}
+.details-con-list #copy{
+		border: 0.01rem solid #3b89ed !important;
+		border-bottom:  0.01rem solid #3b89ed !important;
+}
+.message-con h3.mcon-tit{
+	color:#3b89ed;
+}
+.details-num span{
+	color:#3b89ed !important;
+}
+.details-table thead{
+	background: linear-gradient(90deg, #3b89ed, #05bcfe) !important;
+}
+.periods-right p span{
+	color:#3b89ed !important;
+}
+.balance{
+	color:#3b89ed !important;
+}
+.footer-content .pspan p span{
+	color:#3b89ed !important;
+}
+.confirmbox .confirmtit{
+	color:#3b89ed !important;
+}
+.text .sort{
+	border: 0.06rem solid #3b89ed;
+}
+.playts:before, .winplay:before, .example:before{
+	    background-color: #3b89ed;
+}
+.timecount span:last-child{
+	color: #3b89ed !important;
+}
+.liright p{
+	color: #3b89ed !important;
+}
+#totalAmount, #totalNum{
+	color: #3b89ed !important;
+}
+.enfirmqd{
+	color: #3b89ed !important;
+}
+.selectnumber li .lileft span:nth-of-type(1){
+	background: url('../../imgs/bwei.png') no-repeat;
+}
+.details_right .btn input{
+	color: #3b89ed !important;
+}
+
+
+
+ 
+
+
+
+.colorcss{
+	color:#3b89ed !important;
+}

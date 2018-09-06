@@ -1,0 +1,338 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+#layout{
+	width: 100%;
+	height: 100%;
+}
+.header_wrap{
+	width: 100%;
+	z-index: 200;
+	position: fixed;
+	top: 0;
+}
+.header{
+	/*background: url(/source/imgs/images/titlebg.png) no-repeat 0 0/100% 100%;*/
+	height: .44rem;
+	position: relative;
+}
+
+.header h2{
+	height: .44rem;
+	line-height: .44rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: .18rem;
+}
+.header .set{
+	position: absolute;
+	left: .15rem;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+.header .set i{
+	font-size: .24rem;
+}
+
+/*ocontent*/
+.ocontent{
+	margin-top: .44rem;
+}
+
+.timecount{
+	height: .45rem;
+	line-height: .45rem;
+	background: #fff;
+	text-align: center;
+	color: #666;
+}
+.timecount span:last-child{
+	/* color: #d91e38; */
+	margin-left: .1rem;
+}
+
+.obet{
+	width: 92%;
+	margin: 0 auto;
+}
+.selectbet{
+	padding: .14rem 0 .2rem 0;
+	background: url('../../imgs/images/betbg.png') no-repeat left bottom/100% 0.08rem;
+	overflow: hidden;
+}
+.selecttop{
+	display: flex;
+	justify-content: space-between;
+}
+.selecttop>div{
+	height: .38rem;
+	background: #fff;
+	/*border: 0.1rem solid #d9d9d9;*/
+	border-radius: 0.04rem;
+	line-height: .38rem;
+	width: 45%;
+	text-align: center;
+}
+.selecttop span{
+	line-height: .38rem;
+	font-size: .14rem;
+	color: #666;
+}
+.selecttop i{
+	font-size: .18rem;
+	font-weight: 600;
+	color: #666;
+}
+.goback{
+	
+}
+.randombet{}
+
+
+.numtext{
+	height: .4rem;
+	line-height: .4rem;
+	text-align: left;
+	margin-top: .1rem;
+}
+.numtext .txt{
+	float: right;
+	height: .3rem;
+	width: 40%;
+	line-height: .3rem;
+	border: 0.01rem solid #ccc;
+	border-radius: 0.04rem;
+	background: #fff;
+	margin: 0.05rem 0 0 .1rem;
+	font-size: .14rem;
+	text-indent: 0.05rem;
+}
+
+
+/*注单列表*/
+/*六合彩注单列表*/
+.hkbetlist{
+/* 	display: none; */
+-webkit-overflow-scrolling : touch !important;
+}
+.hkbetlist li{
+	/*height: 10rem;*/
+	background: #fff;
+	display: flex;
+	border-bottom: 0.01rem solid #d9d9d9;
+}
+.hkbetlist li:last-child{
+	border-bottom:none;
+}
+.hkbetlist .lileft{
+	width: .54rem;
+}
+.lileft .delete{
+	width: .25rem;
+	height: .25rem;
+	margin: .19rem 0 0 .145rem;
+}
+.lileft .delete img{
+	width: 100%;
+	height: 100%;
+}
+.hkbetlist .liright{
+	flex: 1;
+}
+
+.liright .detail{
+	height: .25rem;
+	line-height: .25rem;
+	color: #111;
+}
+.liright .detail span:nth-of-type(2){
+	margin-left: .12rem;
+}
+.liright .detail input{
+	float: right;
+	width: .10rem;
+	height: .25rem;
+	line-height: .25rem;
+	border: 0.01rem solid #ccc;
+	border-radius: 0.04rem;
+	margin-right: .14rem;
+	text-indent: 0.05rem;
+	font-size: .14rem;
+}
+.liright p{
+	/*height: 4.1rem;*/
+	line-height: .21rem;
+	color: red;
+    padding: .03rem 0 .03rem 0;
+    box-sizing: border-box;
+}
+.liright p:first-child{
+	margin-top: 0.02rem;
+}
+
+/*时时彩列表*/
+.otherbetlist{
+	-webkit-overflow-scrolling : touch !important;
+}
+.otherbetlist li{
+	background: #fff;
+	border-bottom: 0.01rem solid #eee;
+	padding:.12rem .1rem;
+}
+.otherbetlist li:last-child{
+	border-bottom: 0.01rem dashed #d9d9d9;
+}
+.otherbetlist li p{
+	line-height: .12rem;
+	white-space:normal; 
+	word-break:break-all;
+	color: red;
+}
+.otherbetlist li .licoenten{
+	height: .25rem;
+	line-height: .25rem;
+	position: relative;
+	color: #999;
+}
+.otherbetlist li .licoenten span:first-child{
+	margin-right:.06rem;
+}
+.otherbetlist li .delete{
+	width: .25rem;
+	height: .25rem;
+	position: absolute;
+	right: 0rem;
+	top: 0;
+}
+.otherbetlist li .delete img{
+	width: 100%;
+	height: 100%;
+}
+
+.otherbetlist li .libottom{
+	height: .2rem;
+	line-height: .2rem;
+}
+.otherbetlist li .libottom span{
+	margin-left: .1rem;
+}
+
+.wrap-addto{
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	bottom: .5rem;
+}
+.addto{
+	height: .5rem;
+	width: 100%;
+	margin: 0 auto;
+	color: #666;
+}
+.addto-left{
+	margin-left: .1rem;
+	line-height: .5rem;
+}
+
+.addto-right{
+	line-height: .5rem;
+    position: absolute;
+    right: 0.1rem;
+}
+.periods{
+	display: inline-block;
+	height: .25rem;
+	border: 0.01rem solid #ccc;
+	border-radius: 0.04rem;
+	line-height: .25rem;
+	margin: 0 .1rem;
+	text-align: center;
+	background: #f5f5f5;
+	
+}
+.addto-right span{
+	display: inline-block;
+	width: .25rem;
+	height: .25rem;
+}
+.addto-right span:nth-of-type(2){
+	width: .38rem;
+	border-left:0.01rem solid #ccc;
+	border-right:0.01rem solid #ccc;
+	background: #fff;
+}
+.addto-right span.ofous{
+	color: #d9d9d9;
+}
+
+/*底部foot*/
+.wrap-foot{
+	background: #2d2d2d;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.foot{
+	width: 92%;
+	margin: 0 auto;
+	height: .5rem;
+	display: flex;
+	text-align: center;
+}
+.btn{
+	width: .5rem;
+	height: .3rem;
+	line-height: .3rem;
+	/* background: #fff; */
+	color: #111;
+	border-radius: 0.03rem;
+	margin-top: .1rem;
+}
+.btn.isclick{
+	/* background: #2b9037; */
+	color: #fff;
+}
+.footcontent{
+	flex: 1;
+}
+
+.footcontent p:first-child{
+	color: #d8ad0c;
+	margin-top: .1rem;
+	line-height: .14rem;
+}
+.footcontent p:last-child{
+	color: #fff;
+	font-size: .12rem;
+}
+
+/*提示窗口*/
+.weui-dialog__btn.primary{
+	color: #2a9af7;
+}
+
+
+.addto .checkbox_xz{
+    border: 1px solid darkgray;
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background-color: white;
+    border-radius: .03rem;
+    /* -webkit-appearance: checkbox; */
+    vertical-align: middle;
+    margin-right: .08rem;
+    margin-top: -.01rem;
+}
+.addto .on{
+	background-image: url('../../imgs/xuanz.png');
+	border:1px solid white;
+	background-size: cover;
+}

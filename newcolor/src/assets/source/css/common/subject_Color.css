@@ -1,0 +1,75 @@
+
+
+/*.ball span{
+		color:#fa3956!important;
+}*/
+.details_right .btn input,.list .copy,.details-con-list #copy,.loginbtn,.color_speciesul .ons{
+	/*border: 0.1rem solid  #E53333;
+	color:  #E53333;*/
+	/*border:1px solid green;
+	color:green;*/
+	/*border: 0.1rem solid  #349635;
+	color:  #349635;*/
+	border:0.01rem solid #ff6b52;
+}
+
+
+
+.color_speciesul li.on{
+	border:1px solid #ff6b52;
+}
+
+.number_Kj li.on,.ball span.isclick,.number_Kj .ons1,.ons3{
+	/* background: linear-gradient(90deg, #fa3956, #ff6b52); */
+	color: white;
+}
+.moneylist li .clickli,.on .atype span,.userbtn{
+	border: 1px solid #ff6b52;
+	color: #ff6b52!important;
+}
+.trend_nav a.on{
+	border-bottom: 2px solid #ff6b52;
+}
+/* .ons3{ */
+	/* background: linear-gradient(90deg, #fa3956, #ff6b52); */
+	/*background: radial-gradient(#fa3956, #fa3956);*/
+/* } */
+
+.towaytop ul .liborder,.nav ul .isclick,.weui-navbar__item.weui-bar__item--on{
+	border-bottom:2px solid #ff6b52;
+}
+
+/*//冲突   不需要更改*/
+.notlogin .btn,.notlogin .loginbtn{background: none;}
+.list .liright span{color: #111;}
+.rechargeselect .liright span{color: #111;}
+.ocontent-wrap .ocontent .btn{
+	border-radius: 5px;
+}
+body{
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+.foot #qk{
+	background: linear-gradient(90deg, #eee, #eee);
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400!important;
+	/*color: white!important;*/
+}
+
+.drawtext-top h4{
+	color:#111 !important;
+}
+.listoper2{
+	background:rgba(204,204,204,1);
+}
+.pitch{
+	color: #111;
+}
+.ball span.isclick,.selectrule ul .isclick{border:none;}
+.weui-tab__bd-item .atype-chose .on,.count-box .on,.weui-cell__bd .on{
+	border-bottom:none;
+}
+.periodsmax .xglhc li .lhchm div{
+	 background: none;
+}

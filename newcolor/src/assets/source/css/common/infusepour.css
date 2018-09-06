@@ -1,0 +1,201 @@
+
+
+/*去除ios默认按钮样式*/
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;
+}
+textarea { -webkit-appearance: none;}
+
+html{
+	font-size: 62.5%;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+#layout{
+	width: 100%;
+	height: 100%;
+}
+
+.header{
+	background: #2d9136;
+	height: 4.4rem;
+	position: relative;
+}
+
+.header h2{
+	margin: 0 auto;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-size: 1.6rem;
+}
+
+
+/*主内容区*/
+.banner{
+	width: 100%;
+}
+.banner .bannerimg{
+	width: 19.6rem;
+	height: 20.4rem;
+	margin: 3rem auto 0;
+}
+.banner .bannerimg img{
+	width: 100%;
+	height: 100%;
+}
+.banner p{
+	text-align: center;
+	margin-top: 1rem;
+	height: 3.8rem;
+	line-height: 3.8rem;
+	font-size: 1.6rem;
+	color: #666;
+}
+/*按钮*/
+.btnnode{
+	width: 24rem;
+	margin: 1.7rem auto 5rem;
+}
+.btnnode input{
+	width: 24rem;
+	height: 4rem;
+	text-align: center;
+	line-height: 4rem;
+	border: 0.1rem solid #2b9037;
+	background: #fff;
+	color: #2b9037;
+	border-radius: 0.45rem;
+}
+.btnnode input:first-child{
+	margin-bottom: 2rem;
+}
+.btnnode .pitchon{
+	background:#2b9037 ;
+	color: #fff;
+}
+
+/*tab切换*/
+.tab{
+	background: #fff;
+	display: flex;
+}
+.tabcontent{
+	width: 50%;
+	height: 3rem;
+	text-align: center;
+	line-height: 3rem;
+	position: relative;
+}
+
+.tabcontent:first-child:after{
+	content: '';
+	display: block;
+	height: 2rem;
+	width: 0.1rem;
+	transform: scaleX(0.5);
+	background: #ccc;
+	position: absolute;
+	right: 0;
+	top: 0.5rem;
+}
+.tabcontent span{
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+.pitch {
+	color: #d91e38;
+}
+
+/*个人记录列表*/
+.mylist{}
+.mylist ul{
+	background: #fff;
+	margin-top: 1rem;
+}
+.mylist ul:first-child{
+	margin-top: 0;
+}
+.mylist ul li{
+	height: 4.4rem;
+	line-height: 4.4rem;
+	border-bottom: 0.01rem solid #ccc;
+}
+.mylist ul li a{
+	color: #111;
+	font-size: 1.4rem;
+	font-weight: 600;
+	display: block;
+	height: 4.4rem;
+	width: 92%;
+	margin: 0 auto;
+	position: relative;
+}
+.mylist ul li a img{
+	width: 2rem;
+	height: 2rem;
+	margin-top: 1.2rem;
+	float: left;
+}
+.mylist ul li a span{
+	margin-left: 1rem;
+	line-height: 4.4rem;
+	display: block;
+	float: left;
+}
+.mylist ul li i{
+	color: #999;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.mylist ul li a .announcement{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background: #d91e38;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 1.6rem;
+}
+
+
+
+/*tab选项*/
+.weui-navbar__item{padding: 8px 0;font-size: 1.4rem;color: #999;background: #fff;border-bottom: 1px solid #d9d9d9;}
+.weui-navbar__item.weui-bar__item--on{color: #111;border-bottom: 2px solid;background: #fff;}
+.weui-navbar__item-cut{border-right: 1px solid #d9d9d9;}
+.weui-navbar + .weui-tab__bd {padding-top: 40px;}
+.message-navbar{top: 4.4rem;}
+
+
+.weui-tabbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    z-index: 500;
+    bottom: 0;
+    width: 100%;
+    background-color: #2d2d2d;
+    height: 5rem;
+    position: fixed;
+}
+.weui-tabbar__item {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    padding: 5px 0 0;
+    font-size: 0;
+    color: #999;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+

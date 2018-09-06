@@ -1,0 +1,242 @@
+
+
+html{
+	font-size: 62.5%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+#layout{
+	width: 100%;
+	height: 100%;
+}
+.header_wrap{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 200;
+}
+.header{
+	/*background: url(/source/imgs/images/titlebg.png) no-repeat 0 0/100% 100%;*/
+	height: 4.4rem;
+	position: relative;
+}
+
+.header h2{
+	margin: 0 auto;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.8rem;
+}
+.header .set{
+	position: absolute;
+	left: 1.5rem;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+.header .set i{
+	font-size: 2.4rem;
+}
+/*银行卡信息*/
+.drawing_content{
+    width: 100%;
+    margin-top: 4.4rem;
+}
+
+.bankcard{
+    margin-top: 4.5rem;
+}
+.bankcard ul{}
+.bankcard ul li{
+    height: 4.5rem;
+    background: #fff;
+    position: relative;
+    border-bottom: 0.1rem solid #eee;
+}
+.bankcard ul li:last-child{
+    border: none;
+}
+.bankcard ul li p{
+    line-height: 4.5rem;
+    text-indent: 1.5rem;
+    font-size: 1.6rem;
+    color: #666;
+}
+.bankcard ul li p span{
+    color: #000;
+}
+.bankcard ul li a{
+    display: block;
+    width: 0.8rem;
+    height: 1.3rem;
+    background: url("/source/imgs/images/right_1_05.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*消费详情*/
+.consume{
+    text-indent: 1.5rem;
+}
+.consume h3{
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.6rem;
+    color: #111;
+    font-weight: 400;
+}
+
+.consume .detail{}
+.detail ul{}
+.detail ul li{
+    height: 4.5rem;
+    background: #fff;
+    width: 100%;
+    display: flex;
+}
+.detail ul li:first-child{
+    /*border-bottom: 0.1rem solid #eee;*/
+}
+
+.detail ul li p{
+    line-height: 4.5rem;
+    color: #666;
+    font-size: 1.4rem;
+}
+.detail ul li p:first-child{
+    width: 55%;
+}
+.detail ul li p:last-child{
+    text-indent: 0;
+    flex: 1;
+}
+.detail ul li p span{
+    color: #000;
+    text-indent: 0;
+    margin-left: 0.4rem;
+}
+
+.consume .extractmoney{
+    margin-top: 1rem;
+}
+.extractmoney ul{}
+.extractmoney ul li{
+    height: 4.5rem;
+    background: #fff;
+    line-height: 4.5rem;
+}
+.extractmoney ul li:first-child{
+    border-bottom: 0.1rem solid #eee;
+}
+
+.extractmoney ul li p{
+    font-size: 1.6rem;
+    color: #666;
+}
+.extractmoney ul li:first-child p{
+    color: #000;
+}
+.extractmoney ul li input{
+    border: 0;
+    height: 2.5rem;
+    color: #000;
+    font-size: 1.6rem;
+}
+.extractmoney ul li:last-child input{
+    width: 10.46%;
+    border: 0.1rem solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.affirm{
+    width: 70%;
+    height: 4rem;
+    margin: 3rem auto 0;
+}
+
+.affirm input{
+    width: 100%;
+    height: 100%;
+    background: #2b8f37;
+    line-height: 100%;
+    text-align: center;
+    border:0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+/*适配屏幕小于380终端*/
+@media screen and (min-width: 320px) and (max-width: 360px){
+    .bankcard ul li p{
+        font-size: 1.4rem;
+    }
+    .consume h3{
+        font-size: 1.4rem;
+    }
+
+    .detail ul li p{
+        position: relative;
+        font-size: 1.2rem;
+    }
+    .detail ul li p:first-child span {
+        color: #000;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 7rem;
+        left: 8rem;
+    }
+    .detail ul li p:last-child span{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 7rem;
+        left: 6rem;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 400px){
+    .detail ul li p{
+       font-size: 1.2rem;
+    }
+    .detail ul li p:first-child span {
+        color: #000;
+        display: inline-block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 9rem;
+    }
+    .detail ul li p:last-child span{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        width: 8rem;
+    }
+}
+#drawAmountP span{
+	/*padding-left:2rem;*/
+	box-sizing: border-box;
+}
+#canDrawSpan{
+	/*padding-left:10px;*/
+	box-sizing: border-box;
+}

@@ -1,0 +1,211 @@
+*{word-wrap:break-word;white-space:normal;}
+/*报表查询*/
+.repform{margin-top: 10px;}
+.repform .weui-cell{border-bottom: 1px solid whitesmoke;height: 45px;}
+.repform .weui-cell:last-child{border: none;}
+.repform .weui-cell__bd p{font-size: 1.4rem;color: #111;}
+.repform .weui-cell__ft{font-size: 1.4rem;color: #111;}
+.repformtime{height: 45px;}
+.repformtime .weui-cell__bd p{font-size: 1.4rem;color: #666;}
+.repformtime .weui-cell__bd p span{margin: 0 30px;}
+.repformtime .weui-cell__ft{font-size: 1.4rem;color: #666;}
+.weui-cell_access.repformtime .weui-cell__ft:after{border-color: #666;}
+.rft-chose{color: #666;font-size: 1.4rem;height: 45px;}
+.weui-actionsheet_cancel{color: #666;font-size: 1.4rem;height: 45px;}
+.weui-actionsheet{background: transparent;}
+.repform .colorred{color: #d91e38;}
+
+/*代理说明*/
+.agent-int{    padding: 21px;margin-top: 10px;box-sizing: border-box;}
+.agent-int p{font-size: 1.4rem;color: #666;}
+.agent-int h3{font-size: 1.8rem;color: #111;margin: 5px 0;}
+
+/*代理佣金*/
+.count{}
+.count-tit{line-height: 45px;padding: 0 15px;}
+.count-box{padding: 15px 0;}
+.cb-con{position: relative;padding: 0 15px;align-items: center;display: flex;}
+/*.count-box .cb-con:first-child::after{content: "";display: block;height: 20px;border-right: 1px solid #d9d9d9;position: absolute;right: 0;top: 50%;margin-top: -10px;}*/
+.cb-con img{float: left;width: 30px;margin-right: 10px;}
+.cb-name{color: #666;}
+.cb-num{font-size: 1.6rem;}
+.count-list{margin-top: 10px;}
+.count-listsc{width: 100%;overflow-x: auto;}
+.cl-tit{width: 100%;background: white;line-height: 16px;padding: 12px 10px;overflow: hidden;    margin-top: 10px;}
+.cl-titsc{width: 580px; position: relative;background-color: white;/*margin-top: 20px;*/z-index: 5;}
+.cl-tit li{float: left;width: 20%;text-align: center;}
+.cl-titsc li{width: 80px;}
+.cl-list{margin-top: 1px;}
+.cl-listsc{width: 580px;
+    height: 450px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 2;}
+.weui-pull-to-refresh{margin-top: -50px;}
+.cl-list .cl-tit{background: #fff;}
+.cl-list .cl-tit li{font-size: 1.2rem;color: #666;}
+.cl-con{padding: 0;border-bottom: 1px solid #d9d9d9;}
+.cl-consc{width: 580px;}
+.cl-list .cl-con:last-child{border: none;}
+.weui-cell_access.cl-con .weui-cell__ft{padding: 0;}
+.weui-cell_access.cl-con .weui-cell__ft:after {right: 10px;}
+
+/*代理佣金-期数详情*/
+.countinf .count-list{margin-top: -0.8rem}
+.countinf .cl-tit{padding: 12px 0;}
+.countinf .cl-tit li{width: 33.3333333%;}
+
+/*代理中心*/
+.head{padding: 10px 15px;background-color: white;}
+.headimg{width: 60px;margin-right: 10px;}
+.head p{line-height: 26px;}
+.head label{display: inline-block;width: 5.5em;}
+.agent-core{margin-top: 10px;}
+.agent-core .weui-cell{height: 45px;border-bottom: 1px solid ghostwhite;}
+.agent-core .weui-cell:last-child{border: none;}
+.agent-core .weui-cell .weui-cell__bd{color: #666;}
+
+/*下级开户-下级开户*/
+.headt{width: 50px;height: 50px;margin: 0 auto;}
+.atypebox{width: 80px;margin: 0 auto;}
+.headlt{background: url(/source/imgs/images/headl2.png) no-repeat 0 0/100% 100%;}
+.on .headrt{background: url(/source/imgs/images/headr1.png) no-repeat 0 0/100% 100%;}
+.on .headlt{background: url(/source/imgs/images/headl1.png) no-repeat 0 0/100% 100%;}
+.headrt{background: url(/source/imgs/images/headr2.png) no-repeat 0 0/100% 100%;}
+.atype{text-align: center;margin-top: 10px;}
+.atype span{padding: 1px 6px;border: 1px solid #fff;border-radius: 3px;}
+.on .atype span{border-color: #2b9037;color: #2b9037;}
+.atype-chose{padding: 0 15px;height: 80px;line-height: 80px;}
+.atype-chose span{font-size: 1.6rem;margin-right: 15px;}
+.atype-chose .usertype{color: #666;}
+.atype-chose .usertype:last-child{margin-left: 15px;}
+.txtusername{height: 20px;}
+.txtusername input{width: 150px;font-size: 1.4rem;border: none;text-indent: 4px;}
+.downchose.cboombox-list .weui-cell{color: #111;}
+.downchose.cboombox-list .weui-cell span{color: #666;}
+.newpass{font-size: 1.2rem;color: #999;text-align: center;margin-top: 8px;}
+.downchose .weui-cell:last-child{border-bottom: none;} 
+.downchose .backsel ul{height: 230px;}
+.userbtn{display: none; float: right;padding: 1px 6px;font-size: 1.2rem;color: #2b9037;border: 1px solid #2b9037;border-radius: 3px;background: #fff;}
+
+/*下级开户-查看邀请码*/
+.count-list.downlist{margin-top: -0.8rem;}
+.downlist .cl-tit{padding: 12px 0;background-color: white;}
+.weui-cell{border-bottom: 1px solid ghostwhite;}
+.downlist li{width: 18%;}
+.downlist li.lilong{width: 28%;}
+.listoper{font-size: 1.2rem;color: #fff;padding: 2px 6px;border-radius: 3px;border: none;}
+.listoper1{margin-right: 5px;background: #2b9037;}
+.listoper2{background: #d91e38;}
+/*弹框*/
+.cboom{display: none;}
+.cboombg{position: fixed;z-index: 1000;top: 0;right: 0;left: 0;bottom: 0;background: rgba(0,0,0,.6);}
+.cboombox{position: fixed;z-index: 5000;width: 100%;background: #fff;left: 0;bottom: 0px;height: 340px;}/* 将bottom从45改为0 */
+.cboombox-list{margin-top: 0;overflow: visible;}
+.cboombox-list .weui-cell{height: 45px;color: #666;font-size: 1.4rem;/*border-bottom: 1px solid #d9d9d9;*/}
+.cboombox-list .weui-cell span{display: inline-block; width: 5em;color: #111;}
+i.bcicon{width: 21px;height: 26px;margin-right: 10px;background-position: -26px -160px;}
+label.on i.bcicon{background-position: 0 -160px;}
+.cboombox-list .weui-cell label{margin-right: 26px;}
+i.bselicon{float: right;margin: 6px 0;width: 13px;height: 10px;background-position: -53px -160px;}
+.cboomdown{/*height: 180px;padding-top: 60px;*/ margin-top: 60px;}
+.longbtn{display: block; margin: 0 auto;width: 64%;font-size: 1.6rem;color: #fff;height: 40px;background: #2b9037;border: none;border-radius: 8px;}
+.backsel{display: none;position: absolute;top: 45px;left: 0;width: 100%;padding: 0 15px;}
+.backsel ul{
+	/*border: 1px solid #d9d9d9;*/
+	height: 140px;
+	overflow-x: hidden;
+	overflow-y: auto;
+    background: #f5f5f5;
+	-webkit-overflow-scrolling: touch;
+}
+.backsel ul li{line-height: 45px;text-align: center;font-size: 1.6rem;color: #111;}
+.backsel ul li:last-child{border: none;}
+
+/*用户管理*/
+.sear{padding: 10px 15px;background-color: white;}
+.searbox{position: relative; border: 1px solid ghostwhite;border-radius: 6px;}
+.sear input{display: block;width: 100%;/*line-height: 4.6rem;*/border: none;/*padding: 0 72px 0 15px;*/    padding: 1.6rem 0.5rem;border-radius: 6px;}
+.searbtn{position: absolute;right: 0;top: 0; width: 70px;height: 4.6rem;border-left: 1px solid #d9d9d9;border-radius: 0 6px 6px 0;background: #2b9037;text-align: center;font-size: 16px;border: none;color: #fff;}
+.userlist{padding: 0 15px;height: 80px;background-color: white;}
+.ul-tit{margin-bottom: 8px;}
+.ul-con span{float: left;overflow: hidden;margin-right: 10px;background-color: whitesmoke; line-height: 30px; display: block;width: 80px;padding: 2px 8px;height: 35px;text-align: center;/*border: 1px solid #d9d9d9;*/border-radius: 2px;text-align: center;}
+.ul-con span.dspan{line-height: 15px;}
+.ul-selcon{display: none;background: #f5f5f5;padding: 8px 0 5px;transition: all 800ms;}
+.ul-selcon.on{display: flex;    display: flex;width: 65%;justify-content: start;justify-content: space-around;}
+.ul-selcon .weui-flex__item{text-align: center;}
+i.ulsicon{display: block;margin: 0 auto;}
+i.ulsicon1{    width: 25px;height: 24px;background-position: -77px -80px;}
+i.ulsicon2{width: 25px;height: 24px;background-position: -100px -80px;}
+i.ulsicon3{width: 25px;height: 24px;background-position: -130px -80px;}
+i.ulsicon4{width: 25px;height: 24px;background-position: -160px -80px;}
+.ul-selcon p{font-size: 1.2rem;}
+
+.prompt{font-size: 1rem;color: #d91e38;font-weight: normal;display: inline-block;vertical-align: middle;margin-left: -20px;}
+
+
+.weui-cell{
+	padding: 0 15px;
+}
+
+
+/*没有数据列表显示样式*/
+.nodata{
+	display: none;
+}
+.nodata-top{
+	width: 52%;
+	margin: 3rem auto 0;
+}
+.nodata-top img{
+	width: 100%;
+}
+.nodata-top h4{
+	height: 2.6rem;
+	line-height: 2.6rem;
+	text-align: center;
+	color: #111;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+.nodata-top p{
+	height: 2.6rem;
+	line-height: 2.6rem;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #999;
+}
+
+
+.content .weui-media-box .headimg{
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

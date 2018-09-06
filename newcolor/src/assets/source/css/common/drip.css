@@ -1,0 +1,289 @@
+html {
+	font-size: 625%;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
+input[type=button]{
+	-webkit-appearance:none;
+	outline:none
+}
+#layout {
+	width: 100%;
+	height: 100%;
+}
+.header_wrap {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+}
+
+.header {
+  height: 0.45rem;
+  position: relative;
+}
+
+.header h2 {
+  margin: 0 auto;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: .18rem;
+}
+
+
+/*主内容区*/
+.ocontent{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	margin-top: 0.45rem;
+}
+/*未登录状态*/
+.notlogin{
+	/* display: none; */
+}
+.log{
+	width: 52%;
+	margin: 0 auto;
+}
+.log img{
+	width: 100%;
+	display: block;
+}
+.log h4{
+	height: .31rem;
+	line-height: .31rem;
+	text-align: center;
+	font-size: .16rem;
+	font-weight: 400;
+	margin-top: .25rem;
+	color: #999;
+}
+.btn input{
+	width: 64%;
+	height: .48rem;
+	line-height: .48rem;
+	text-align: center;
+	border-radius: 0.04rem;
+	margin: .24rem auto 0;
+	display: block;
+	font-size: .16rem;
+}
+.regbtn{
+	color: #fff;
+	/* background: #2b9037; */
+	background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+.loginbtn{
+	color: #fa3956;
+	border: .01rem solid #ff6b52;
+	/* background: #fff; */
+}
+/*已登录状态*/
+.nav {
+  background: #fff;
+  z-index: 200;
+  position: relative;
+  margin-top: 0.45rem;
+}
+
+.nav ul {
+  width: 100%;
+  display: flex;
+  position: relative;
+  border-bottom: .01rem solid ghostwhite;
+}
+
+.nav ul li {
+  width: 20%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  text-align: center;
+  color: #999;
+  border-bottom: .02rem solid transparent;
+  list-style: none;
+  font-size: .13rem;
+}
+
+.nav ul .isclick {
+  color: #fa3956;
+  border-bottom: .02rem solid #ff6b52;
+}
+
+/* 订单列表 */
+
+.listwrap {
+  position: relative;
+}
+
+.nodata {
+  /* display: none; */
+  overflow: hidden;
+}
+
+.nodata-top {
+  width: 52%;
+  margin: .6rem auto 0;
+}
+
+.nodata-top img {
+  width: 100%;
+}
+
+.nodata-top h4 {
+  height: .312rem;
+  line-height: .312rem;
+  text-align: center;
+  color: #111;
+  font-size: .16rem;
+  font-weight: 400;
+}
+
+.nodata-top p {
+  height: .312rem;
+  line-height: .312rem;
+  text-align: center;
+  font-size: .12rem;
+  color: #999 !important;
+}
+
+.nodatabtn .btn {
+  width: 64%;
+  height: .48rem;
+  line-height: .48rem;
+  text-align: center;
+  border-radius: .04rem;
+  margin: .2rem auto 0;
+  display: block;
+  font-size: .16rem;
+  color: #fff;
+  background: linear-gradient(90deg, #fa3956, #ff6b52);
+  border: none;
+}
+
+/* 有数据的样式 */
+
+.orderlist ul {
+  /* margin-top: -1rem; */
+}
+
+.orderlist .timer {
+  position: absolute;
+  top: .3rem;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.orderlist {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.orderlist li {
+  position: relative;
+  border-bottom: .01rem solid ghostwhite;
+  height: .84rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.orderlist li:last-child {
+  border-bottom: none;
+}
+
+.orderlist li .liwrap {
+  width: 92%;
+  margin: .08rem auto 0;
+  position: relative;
+  /* top: 1.056rem; */
+}
+
+.orderlist .litop {
+  height: .36rem;
+  line-height: .36rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderlist .litop h3 {
+  font-size: .16rem;
+  color: #111;
+  font-weight: 400;
+}
+
+.orderlist .litop .periods {
+  font-size: .12rem;
+  color: #999;
+  position: absolute;
+  right: .84rem;
+}
+
+.orderlist .litop .money {
+  font-size: .14rem;
+  color: #666;
+  /* margin-right:1.8rem; */
+  position: absolute;
+  top: .3rem;
+}
+
+.orderlist .libottom {
+  height: .3rem;
+  line-height: .3rem;
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+}
+
+.orderlist .libottom .timer span {
+  font-size: .14rem;
+  display: block;
+}
+
+.orderlist .result {
+  position: absolute;
+   top: 0;
+  right: 0;
+  font-size: .14rem;
+}
+
+.onlottery {
+  color: red;
+}
+
+.orderlist li .liwrap i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: .12rem;
+}
+
+.wrap-header .header .header-oper{
+	right: 1.5rem;
+}
+.add_bg{
+	height: 100%;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+/*下拉刷新插件*/
+/* .listwrap{
+	position: relative;
+}
+.orderlist{
+	position: absolute;
+    width: 100%;
+    top: -50px;
+}
+.listwrap{
+	margin-top:5rem ;
+} */

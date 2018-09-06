@@ -1,0 +1,213 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+input[type=button]{
+	-webkit-appearance:none;
+	outline:none
+}
+#layout {
+	width: 100%;
+	height: 100%;
+}
+
+.header_wrap {}
+
+.header {
+	/*background: url(/source/imgs/images/titlebg.png) no-repeat 0 0/100% 100%;*/
+	height: 4.4rem;
+	position: relative;
+}
+
+.header h2 {
+	margin: 0 auto;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.8rem;
+}
+
+.header .set {
+	position: absolute;
+	left: 1.5rem;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+
+.header .set i {
+	font-size: 2.4rem;
+}
+
+
+/*主内容区*/
+.ocontent{
+	width: 100%;
+	overflow: hidden;
+}
+
+/*已登录状态*/
+.nav{
+	background: #fff;
+    z-index: 200;
+    position: relative;
+}
+.nav ul{
+	width: 100%;
+	display: flex;
+	position: relative;
+	border-bottom: 0.1rem solid ghostwhite;
+}
+/*.nav ul::after{
+	display: block;
+	width: 100%;
+	height: 0.1rem;
+	background: #ccc;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	-webkit-transform: scaleY(0.5);
+}*/
+.nav ul li{
+	width: 20%;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+	color: #999;
+	border-bottom: 0.2rem solid transparent;
+}
+.nav ul .isclick{
+	color: green;
+	border-bottom: 0.2rem solid green;
+}
+
+.orderlist{
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.orderlist ul{
+	padding-left: 15px;
+	box-sizing: border-box;
+	background-color: white;
+	/*margin-top: 10px;*/
+}
+
+.orderlist li{
+	height: 7rem;
+	border-bottom: 0.1rem solid ghostwhite;
+	overflow: hidden;
+	background: #fff;
+}
+.orderlist li:last-child{
+	border-bottom: none;
+}
+
+.orderlist li .liwrap{
+	width: 100%;
+	margin: 0.7rem auto 0;
+	position: relative;
+	
+}
+
+.orderlist h3{
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 1.6rem;
+	color: #111;
+	font-weight: 400;
+}
+.orderlist .timer{
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+.orderlist .timer span{
+	color: #666;
+}
+.orderlist li.message-read h3{
+	color: #999;
+}
+
+.orderlist li.message-read .timer span{
+		color: #999;	
+}
+.orderlist li .liwrap i{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #666;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+/*没有注单列表*/
+.nodata{
+	display: none;
+}
+.nodata-top{
+	width: 46%;
+	margin: 5rem auto 0;
+}
+.nodata-top img{
+	width: 100%;
+}
+.nodata-top h4{
+	height: 2.6rem;
+	line-height: 2.6rem;
+	text-align: center;
+	color: #111;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+.nodata-top p{
+	height: 2.6rem;
+	line-height: 2.6rem;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #999;
+}
+.nodatabtn{}
+.nodatabtn .btn{
+	width: 64%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin: 2rem auto 0;
+    display: block;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #2b9037;
+}
+
+
+/*下拉刷新插件*/
+.listwrap{
+	position: relative;
+}
+/*.orderlist{
+	position: absolute;
+    width: 100%;
+    top: -50px;
+}
+.listwrap{
+	margin-top:5rem ;
+}*/
+.weui-pull-to-refresh__layer{
+	
+}
+.detaillist li{
+	position: relative;
+}
+.detaillist .iconfont{
+	position: absolute;
+	top: 3rem;
+	right: 2rem;
+}

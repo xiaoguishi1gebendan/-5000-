@@ -1,0 +1,81 @@
+
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #F5F5F5;
+}
+#layout{}
+
+.wrap-header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	/*background: url(/source/imgs/images/titlebg.png) no-repeat;*/
+    background-size:100% 100% ;
+}
+
+.header h2{
+	margin: 0 auto;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.8rem;
+}
+.header .set{
+	position: absolute;
+	left: 1.5rem;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+.header .set i{
+	font-size: 2.4rem;
+}
+
+/*主内容区*/
+.ocontent{
+	width: 100%;
+	margin-top: 5.4rem;
+}
+
+.newest{
+	/*width: 100%;*/
+	/*border-bottom: 0.1rem solid #d9d9d9;*/
+	/*overflow:hidden;
+	background: #fff;
+	margin-top: 13px;*/
+	
+	
+	width: 91%;
+    /* border-bottom: 0.1rem solid #d9d9d9; */
+    overflow: hidden;
+    background: #fff;
+    /* margin-top: 13px; */
+    margin: 13px auto;
+    border-radius: 10px;
+}
+
+.news{
+	margin: 0 2rem 1rem 1.5rem;
+}
+
+.news h3{
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 2.6rem;
+	margin-top: 1rem;
+}
+.news p{
+	line-height: 2rem;
+	margin-top: 0.4rem;
+	color: #666;
+	font-size: 1.4rem;
+}
+
+.news p:last-child{
+	color:#999;
+	font-size: 1.2rem;
+}

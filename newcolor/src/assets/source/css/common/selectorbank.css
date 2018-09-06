@@ -1,0 +1,82 @@
+body{
+	overflow-x: hidden;
+}
+#layout{
+    height: 100%;
+    
+}
+/*头部*/
+.wrap_header{
+    width: 100%;
+  
+}
+.index_header{
+    width: 100%;
+    height: 4.4rem;
+    /*background: url(/source/imgs/images/titlebg.png) no-repeat 0 0/100% 100%;*/
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.index_header .login{
+    margin-left: 1.5rem;
+    position: relative;
+}
+.index_header .login i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.index_header h3{
+    height: 4.4rem;
+    line-height: 4.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.index_header .mycollect{
+    height: 4.4rem;
+    line-height: 4.4rem;
+    margin-right: 1.1rem;
+}
+
+.selectorcontent{
+	width: 100%;
+	
+}
+
+.selectorcontent ul{
+    /*margin-top: -1rem;*/
+}
+
+.selectorcontent ul li{
+	height: 4.5rem;
+	line-height: 4.5rem;
+	display: flex;
+	background-color: #fff;
+	justify-content: space-between;
+	margin-top: 0.1rem;
+}
+
+.selectorcontent ul li span{
+	display: block;
+	font-size: 1.4rem;
+	color: #666;
+}
+.selectorcontent li span:first-child{
+	margin-left: 1.5rem;
+}
+.selectorcontent li span:last-child{
+	width: 3rem;
+	height: 3rem;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	margin: 0.8rem 1.5rem 0 0;
+}
+.selectorcontent li span:last-child img{
+	display:none;
+	width: 100%;
+}

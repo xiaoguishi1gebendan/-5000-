@@ -1,0 +1,112 @@
+/*充值记录*/
+.mylist{margin-top: 0;}
+.mylist .weui-media-box{width: 100%; border-bottom: 1px solid #d9d9d9;padding: 10px;background: #fff;}
+.mylist .weui-media-box:last-child{border: none;}
+.mylist .weui-media-box__title{position: relative;line-height: 24px;}
+.mylist-name{width: 100%;font-size: 1.6rem;color: #111;padding-right: 125px;}
+.mylist-num{font-size: 1.2rem;color: #999;padding-right: 120px;}
+.mylist-name span{position: absolute;right: 5px;bottom: 0; font-size: 1.2rem;color: #d91e38;max-width: 120px;}
+.mylist-num span{position: absolute;right: 5px;bottom: 0; font-size: 1.2rem;color: #999;max-width: 120px;}
+
+/*充值明细*/
+.myli{margin-top: 10px;}
+.myli .weui-cell{padding: 10px;border-bottom: 1px solid #d9d9d9;}
+.myli .weui-cell:last-child{border-bottom: none;}
+.myli .weui-cell p{font-size: 1.4rem;color: #666;font-weight: normal;line-height: 24px;}
+.myli .weui-cell p.colorred{color: #d91e38;}
+.myli .weui-cell p label{float: left;  display: inline-block; width: 4em;overflow: hidden;line-height: 24px;color: #666;}
+
+/**/
+.losebox{ width: 165px;overflow: hidden; margin: 70px auto 0;}
+.loseboxcenter{position: absolute;top: 50%;left: 50%;height: 175px; margin: -115px 0 0 -82.5px;}
+.losebox h4{font-size: 1.6rem;text-align: center;margin-top: 8px;}
+.losebox p, .loseboxtxt{font-size: 1.2rem;color: #999;text-align: center;margin-top: 2px;}
+.loseboxbtn{margin-top: 60px;}
+/*账户明细滚动条*/
+.trend{margin-bottom: .8rem;height: 4rem;/*  overflow:hidden; */position: absolute;top: 4.4rem;left: 0;right: 0;top: 4.4rem;left: 0;right: 0;z-index: 20;}
+.trend_nav{background:#fff; overflow:hidden;}
+.trend_nav a{position:relative;color: #999;display: block;float: left;text-align: center;font-size: 1.4rem;line-height: 3.8rem; padding:0 15px;cursor:pointer;}
+.trend_nav::after{ visibility: hidden; display: block;font-size: 0;content:" "; clear: both;height:0}
+.trend_nav a.on{ color:#d91e38;border-bottom: 2px solid #d91e38;}
+
+/*个人消息*/
+.message-read .mylist-name{color: #999;}
+
+/*个人消息详情*/
+.message-con{padding: 10px 15px;}
+.message-con h3.mcon-tit{font-size: 1.6rem;display: inline-block;}
+.mcon-time{font-size: 1.2rem;color: #999;    display: inline-block;margin-left: 33.5%;}
+.mcon-txt{color: #666;margin-top: 7px;}
+
+/*更多*/
+.switchlist{margin-top: 10px;}
+.switchlist .weui-cell_switch{height: 40px; border-bottom: 1px solid #d9d9d9;}
+.switchlist .weui-cell_switch:last-child{border: none;}
+.switchlist .weui-cell__bd{font-size: 1.4rem;color: #666;}
+.option{margin-top: 10px;}
+.option .weui-cell{color: #666;font-size: 1.4rem;border-bottom: 1px solid #d9d9d9;}
+.option .weui-cell:last-child{border: none;}
+
+/*设置*/
+.signout{margin-top: 10px;}
+.signout a{padding: 10px 15px;text-align: center;color: #d91e38;}
+
+/*提款记录*/
+.cash-money span{color: #2b9037;}
+/*提款记录*/
+.recharge-money span{color: red;}
+
+/*投诉建议-填写*/
+.chose-class{position: relative;padding: 15px 10px 10px;color: #666;padding-left: 70px;background-color: white;margin-bottom: 1px;}
+.chose-class label{width: 60px;position: absolute;left: 10px;top: 17px;}
+.chose-class-list{}
+.chose-class span{display: inline-block;width: 70px;line-height: 25px;text-align: center;color: #666;background: #fff;border-radius: 4px;margin: 0 0 5px 6px;}
+.chose-class span.on{color: #fff;background: #2b9037;}
+.iptxt{width: 100%;margin-top:-5px;padding: 10px;line-height: 20px;border: none;}
+.txtbox{padding: 10px;width: 100%;height: 220px;font-size: 1.4rem;}
+.resumebtn{display: block;margin: 30px auto 0;width: 260px;height: 40px;font-size: 1.6rem;color: #fff;padding: 0;border: none;background: #2b9037;border-radius: 7px;}
+
+/*-详情*/
+.que{position: relative;padding: 10px;background: #fff;}
+.que-tit{font-size: 1.6rem;}
+.que-con{color: #666;}
+.que-time{font-size: 1.2rem;color: #999;}
+.que-state{width: 36px;height: 36px; position: absolute;right: 0;top: 0;}
+.ans-list{margin-top: 10px;}
+
+/*投诉建议*/
+.que-list .que{border-bottom: 1px solid #d9d9d9;}
+.que-list .que:last-child{border: none;}
+.addque{ position: absolute;bottom: 0;left: 0;right: 0;}
+.addquebtn{background: #2b9037;color: #fff;line-height: 50px;text-align: center;font-size: 1.6rem;}
+
+
+.bgf{background: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

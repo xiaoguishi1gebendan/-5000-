@@ -1,0 +1,153 @@
+/*充值记录*/
+.mylist{margin-top: 0;}
+.mylist .weui-media-box{width: 100%; border-bottom: 1px solid #d9d9d9;padding: 10px;background: #fff;}
+.mylist .weui-media-box:last-child{border: none;}
+.mylist .weui-media-box__title{position: relative;line-height: 24px;}
+.mylist-name{width: 100%;font-size: 1.6rem;color: #111;padding-right: 125px;}
+.mylist-num{font-size: 1.2rem;color: #999;padding-right: 120px;}
+.mylist-name span{position: absolute;right: 5px;bottom: 0; font-size: 1.2rem;color: #d91e38;max-width: 120px;}
+.mylist-num span{position: absolute;right: 5px;bottom: 0; font-size: 1.2rem;color: #999;max-width: 120px;}
+
+/*充值明细*/
+.myli{margin-top: 10px;}
+.myli .weui-cell{padding: 10px;border-bottom: 1px solid #d9d9d9;}
+.myli .weui-cell:last-child{border-bottom: none;}
+.myli .weui-cell p{font-size: 1.4rem;color: #666;font-weight: normal;line-height: 24px;}
+.myli .weui-cell p.colorred{color: #d91e38;}
+.myli .weui-cell p label{float: left;  display: inline-block; width: 6em;overflow: hidden;line-height: 24px;color: #666;}
+
+/*个人消息*/
+.message-read .mylist-name{color: #999;}
+
+/*个人消息详情*/
+.message-con{padding: 10px 15px;}
+.message-con h3.mcon-tit{font-size: 1.6rem;}
+.mcon-time{font-size: 1.2rem;color: #999;}
+.mcon-txt{color: #666;}
+
+/*更多*/
+.switchlist{margin-top: 10px;}
+.switchlist .weui-cell_switch{height: 40px; border-bottom: 1px solid #d9d9d9;}
+.switchlist .weui-cell_switch:last-child{border: none;}
+.switchlist .weui-cell__bd{font-size: 1.4rem;color: #666;}
+.option{margin-top: 10px;}
+.option .weui-cell{color: #666;font-size: 1.4rem;border-bottom: 1px solid #d9d9d9;}
+.option .weui-cell:last-child{border: none;}
+
+/*设置*/
+.signout{margin-top: 10px;}
+.signout a{padding: 10px 15px;text-align: center;color: #d91e38;}
+
+/*提款记录*/
+.cash-money span{color: #2b9037;}
+
+/*投诉建议-填写*/
+.chose-class{position: relative;padding: 15px 10px 10px;color: #666;padding-left: 70px;}
+.chose-class label{width: 60px;position: absolute;left: 10px;top: 17px;}
+.chose-class-list{}
+.chose-class span{display: inline-block;width: 70px;line-height: 25px;text-align: center;color: #666;background: #fff;border-radius: 4px;margin: 0 0 5px 6px;}
+.chose-class span.on{color: #fff;background: #2b9037;}
+.iptxt{width: 100%;padding: 10px;line-height: 20px;border: none;border-bottom: 1px solid #d9d9d9;}
+.txtbox{padding: 10px;width: 100%;height: 220px;font-size: 1.4rem;}
+.resumebtn{display: block;margin: 30px auto;width: 345px;height: 40px;font-size: 1.6rem;color: #fff;padding: 0;border: none;background: #2b9037;border-radius: 4px;}
+
+/*-详情*/
+.que{position: relative;padding: 10px;background: #fff;}
+.que-tit{font-size: 1.6rem;}
+.que-con{color: #666;}
+.que-time{font-size: 1.2rem;color: #999;}
+.que-state{width: 36px;height: 36px; position: absolute;right: 0;top: 0;}
+.ans-list{margin-top: 10px;}
+
+/*投诉建议*/
+.que-list .que{border-bottom: 1px solid #d9d9d9;}
+.que-list .que:last-child{border: none;}
+.addque{ position: absolute;bottom: 0;left: 0;right: 0;}
+.addquebtn{background: #2b9037;color: #fff;line-height: 50px;text-align: center;font-size: 1.6rem;}
+
+/*投注记录*/
+.mylist-bet{}
+.mylist-bet i{position: absolute;bottom: 0;left: 10em;   font-size: 1.2rem;color: #999;}
+.mylist-bet span{color: #666;font-size: 1.2rem;}
+.mylist-num span.colorred{color: #d91e39;}
+
+/*投注记录-详情*/
+.details-img{width: 60px;margin-right: 15px;}
+.mylist-details{align-items: flex-start;}
+.mylist-details .weui-media-box__bd{padding-top: 7px;}
+.details-num{font-size: 1.2rem;color: #999;}
+.details-num span{margin-left: 3px;font-size: 1.4rem;color: #d91e38;}
+.mylist-details .mylist-name span{color: #999;}
+.details-con{padding: 10px 15px;border-top: 10px solid #f5f5f5;}
+.details-con-tit{font-size: 1.6rem;margin-bottom: 2px;}
+.details-con-list li{line-height: 26px;}
+.startime{color: #d91e38;}
+.details-con-list label{display: inline-block;width: 6em;color: #666;}
+.copybtn{width: 45px;margin-left: 15px;padding-top: 1px;font-size: 1rem;color: #2b9037;border: 1px solid #2b9037;border-radius: 2px;text-align: center;background: #fff;}
+.details-table{width: 100%;margin-top: 3px;table-layout: fixed;}
+.details-table td{text-align: center;}
+.details-table thead{background-color: #3bc6ff;}
+.details-table thead td{color: #fff;line-height: 25px;font-size: 1.2rem;}
+.details-table tbody{background: #f5f5f5;}
+.details-table tbody td{line-height: 30px;font-size: 1.2rem;}
+.gray{color: #666;}
+.details-table .colorred{color: #d91e38;}
+
+/*我的*/
+.my-head{width: 40px;height: 40px;margin-right: 15px;}
+.my-balance{border-top: 1px solid #d9d9d9;}
+.my-balance{padding: 10px 0;}
+.my-box{position: relative;text-align: center;}
+.my-box::after{content: "";display: block;height: 20px;border-right: 1px solid #d9d9d9;position: absolute;right: 0;top: 50%;margin-top: -10px;}
+.my-balance p{line-height: 24px;}
+.my-balance-num{font-size: 1.6rem;color: #d91e38;}
+.my-balance-name{font-size: 1.2rem;color: #999;}
+.my-balance-btn{width: 80px;height: 30px;text-align: center;border: 1px solid #2b9037;border-radius: 4px;color: #2b9037;background: #fff;margin: 9px auto;}
+.my-oper{padding: 15px 0;margin: 10px 0;}
+i.myoper-icon1{width: 30px;height: 30px;margin-right: 10px; background-position: -117px -31px;}
+i.myoper-icon2{width: 30px;height: 30px;margin-right: 10px;background-position: -157px -31px;}
+.my-list a{padding: 10px 15px;}
+.my-list li{border-bottom: 1px solid #d9d9d9;}
+.my-list li a .weui-cell__ft span{display: inline-block;margin-right: 2px;width: 10px;height: 10px;border-radius: 50%;background: #d91e38;}
+.my-list li:last-child{border: none;}
+i.myicon{width: 21px;height: 21px;margin-right: 10px;margin-bottom: 1px;}
+i.myicon1{background-position: 0 -128px;}
+i.myicon2{background-position: -26px -129px;}
+i.myicon3{background-position: -52px -129px;}
+i.myicon4{background-position: -80px -128px;}
+i.myicon5{background-position: -109px -128px;}
+i.myicon6{background-position: -137px -127px;}
+i.myicon7{background-position: -165px -129px;}
+
+/*中奖记录*/
+.spangreen{color: #2b9037 !important;}
+.spanred{color: #d91e38 !important;}
+.details-num.details-get{font-size: 1.4rem;color: #2b9037;}
+
+/*修改登录密码*/
+.con-box{padding: 15px;}
+.iptbox{position: relative;padding-left: 80px;margin-bottom: 10px;height: 49px;border-radius: 6px;border: 1px solid #eee;}
+.iptbox label{position: absolute;left: 10px;width: 80px;line-height: 45px;color: #666;}
+.signpassbox input{width: 95%;padding: 12px 10px;border: none;box-sizing: border-box;}
+.iptbox-int{font-size: 1.2rem;color: #999; text-align: center;}
+.con-box .resumebtn{}
+.weui-dialog__bd{font-size: 1.2rem;color: #666;min-height: 30px;}
+.paypassbox{padding-left: 70px;}
+.paypassbox .paybox:last-child{margin-right: 0;}
+.paybox{position: relative;float: left;margin: 8px 15px 0 0; width: 40px;height: 24px;text-align: center;border: 1px solid #d9d9d9;border-radius: 2px;background: #f5f5f5;}
+.paybox input{width: 100%;border: none;background: #f5f5f5;height: 100%;text-align: center;}
+.paybox-con{position: absolute;width: 100%;height: 100%;left: 0;top: 0;right: 0;bottom: 0;}
+.paybox-con b{display: inline-block; width: 10px;height: 2px;background: #999;vertical-align: middle;}
+.paybox-con i{display: inline-block; width: 8px;height: 8px;background: #333;border-radius: 50%;vertical-align: middle;}
+.paybox-con1{z-index: 10;}
+.paybox-con2{display: none;}
+.weui-prompt-input{margin-top: 5px;background: #f5f5f5;height: auto;line-height: 2;}
+
+
+/**/
+.losebox{ width: 165px;overflow: hidden; margin: 70px auto 0;}
+.loseboxcenter{position: absolute;top: 50%;left: 50%;height: 175px; margin: -115px 0 0 -82.5px;}
+.losebox h4{font-size: 1.6rem;text-align: center;margin-top: 8px;}
+.losebox p, .loseboxtxt{font-size: 1.2rem;color: #999;text-align: center;margin-top: 2px;}
+.loseboxbtn{margin-top: 60px;}
+

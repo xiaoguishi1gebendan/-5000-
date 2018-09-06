@@ -1,0 +1,461 @@
+/*  
+.app_bg{
+		background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+.app_border{
+	border:1px solid #fa3956;
+}
+
+.app_color{
+		color: #fa3956;
+}
+
+
+.header,
+.wrap-header,
+.alltext .unit .isclick,
+.header_wrap,
+.selectrule ul .isclick,
+.gocolorlist span,
+.footer .isclick,
+.footer-right,
+.loss .isclick,
+.wrap_header,
+.resumebtn,
+.ocontent .btn,
+.oheader,
+.addquebtn,
+.btn input,
+.towaybottom ul .button #btn,
+header,
+.header-wrap,
+.btn_zf,
+.nodatabtn .btn,
+.index_header,
+.userheader,
+.end .btn input,
+.details_right .btn .reg,
+.affirm input,
+.btn.isclick,
+.weui-tabbar-btn,
+.confirmbox .resumebtn,
+.foot .btn,
+.moneybox .confirmimg,
+#loginDiv .details_left img,
+.content .weui-media-box .headimg,
+div.bar-na,
+#wx_1,
+#layout .header_wrap,
+.selectorcontent span img,
+.first-one #sk_fz_1,
+.buttom,
+.main-all div:nth-of-type(1),
+.main-all h5:before,
+.yellow,
+.footergg,
+#sk_fz_2,
+.listoper1,
+.longbtn,
+.searbtn,
+.chose-class span.on,
+.details,
+.periodsmax ul li span:nth-of-type(2) div,
+.spansAll,
+.hong
+{
+    background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+
+.ocontent .func a, .ocontent h1, .detailtext .texttop span, .weui-dialog .weui-dialog__btn.primary, .content .logout input, .liright span, .pitch, .list #canvas, .notice #lawSpan, .moneytext p:last-child span, .bb-num span:nth-of-type(2), .loginbtn, .btn .butt:last-child, .ok, .weui-dialog .weui-dialog__btn.primary, .setpassword input:nth-of-type(2) {
+
+    color: #fa3956;
+}
+
+
+
+.foottab ul li dl dt .dtbg {
+	background: url('../../imgs/images/footer_5_02.png') no-repeat;
+}
+ .foottab ul li:nth-of-type(1) a.router-link-active dl dd, .foottab ul li:nth-of-type(2) a.router-link-active dl dd, .foottab ul li:nth-of-type(3) a.router-link-active dl dd, .foottab ul li:nth-of-type(4) a.router-link-active dl dd, .foottab ul li:nth-of-type(5) a.router-link-active dl dd{
+    color: #E53333;
+}
+.lottery .weui-media-box__title.lo-num {
+	color: #d91e38;
+}
+.on {
+    color: #ff6b52 !important;
+    border-bottom: 3px solid #ff6b52;
+}
+.number_Kj li.on,.ball span.isclick,.number_Kj .ons1,.ons3{
+	background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+ .notice .isclick{
+    background-color: #fa3956 !important;
+  }
+
+    #canvas{
+    background: rgba(255,227,231,1);
+  }
+  .foot p{
+	color: red;
+  }
+  
+  .ball span.isclick {
+	background: linear-gradient(90deg, #fa3956, #ff6b52) !important;
+	color: #fff;
+} 
+.usercontent[data-v-5e71f308] {
+    background: #fa3956;
+}
+.nav ul .isclick[data-v-4b205784] {
+    color: #fa3956;
+    border-bottom: .02rem solid #ff6b52;
+}
+.nodatabtn .btn {
+ 
+  background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+#homexia{
+	height:0.65rem;
+	background: url('../../imgs/images/homexiared.png') no-repeat;
+	    background-size: 100% 0.64rem;
+}
+.ball span.lo-conright-odds {
+	color:red !important;
+}
+.ball span {
+	color: #da1835;
+}
+.buttonn{
+	background: #fa3956;
+}
+.zhifubank > li > div > img{
+	background:#fa3956;
+	border-radius:50%;
+}
+.yinhangxinxi > p span:nth-child(3){
+	color: red;
+    border: 1px solid red;
+}
+.xuanzhong > ul > li > span > img{
+	background:#fa3956;
+	border-radius:50%;
+}
+.navlist li.isclick{
+	color: #fa3956;
+    border-bottom: .02rem solid #ff6b52;
+}
+.main .search > input:nth-child(2){
+	background:#fa3956;
+}
+.affirm input {
+	background:#fa3956;
+}
+.maintop span:nth-child(1){
+		border-bottom: 2px solid #fa3956;
+		color:#fa3956
+}
+.button{
+	background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+.tab .spann{
+	background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+.xuanma{
+    border: 1px solid red;
+    color: red;
+}
+.maintop span:nth-child(1){
+	 border-bottom: 2px solid #fc4a55;
+    color: #fa3855;
+}
+.zingd[data-v-0360a63c] {
+    border: 1px solid red;
+	color: red;
+}
+.btnbor{
+	border: 1px solid rgb(250, 57, 86);
+    color: rgb(250, 57, 86);
+}
+.nav ul .isclick {
+    color: #fa3956;
+    border-bottom: 0.02rem solid #ff6b52;
+} 
+.imgbor{
+	    background: #fa3956;
+    border-radius: 50%;
+}
+.chose-class span.on{
+	  background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+*/
+
+/* 以下双色球和香港六合彩的红色球颜色不能改动 */
+.hongg{
+	    width: .24rem;
+    height: .24rem;
+    line-height: .24rem;
+    text-align: center;
+    float: left;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 0.01rem;
+    font-size: .12rem;
+	  background:  #fa3956;
+}
+
+
+
+
+
+ .app_bgg{
+		background:linear-gradient(90deg, #4283eb, #05bdfd) !important;
+}
+.app_border{
+	border:1px solid #4283eb;
+}
+
+.app_color{
+		color:#4283eb;
+}
+
+
+.header,
+.wrap-header,
+.alltext .unit .isclick,
+.header_wrap,
+.selectrule ul .isclick,
+.gocolorlist span,
+.footer .isclick,
+.footer-right,
+.loss .isclick,
+.wrap_header,
+.resumebtn,
+.ocontent .btn,
+.oheader,
+.addquebtn,
+.btn input,
+.towaybottom ul .button #btn,
+header,
+.header-wrap,
+.btn_zf,
+.nodatabtn .btn,
+.index_header,
+.userheader,
+.end .btn input,
+.details_right .btn .reg,
+.affirm input,
+.btn.isclick,
+.weui-tabbar-btn,
+.confirmbox .resumebtn,
+.foot .btn,
+.moneybox .confirmimg,
+#loginDiv .details_left img,
+.content .weui-media-box .headimg,
+div.bar-na,
+#wx_1,
+#layout .header_wrap,
+.selectorcontent span img,
+.first-one #sk_fz_1,
+.buttom,
+.main-all div:nth-of-type(1),
+.main-all h5:before,
+.yellow,
+.footergg,
+#sk_fz_2,
+.listoper1,
+.longbtn,
+.searbtn,
+.chose-class span.on,
+.details,
+.periodsmax ul li span:nth-of-type(2) div,
+.spansAll,
+.modeltop,
+.hong
+{
+    background: linear-gradient(90deg, #4283eb, #05bdfd);;
+}
+
+.ocontent .func a, .ocontent h1, .detailtext .texttop span, .weui-dialog .weui-dialog__btn.primary, .content .logout input, .liright span, .pitch, .list #canvas, .notice #lawSpan, .moneytext p:last-child span, .bb-num span:nth-of-type(2), .loginbtn, .btn .butt:last-child, .ok, .weui-dialog .weui-dialog__btn.primary, .setpassword input:nth-of-type(2) {
+
+    color: #4283eb;
+}
+
+
+
+.foottab ul li dl dt .dtbg {
+	background: url('../../imgs/images/footer_5_03.png') no-repeat;
+}
+ .foottab ul li:nth-of-type(1) a.router-link-active dl dd, .foottab ul li:nth-of-type(2) a.router-link-active dl dd, .foottab ul li:nth-of-type(3) a.router-link-active dl dd, .foottab ul li:nth-of-type(4) a.router-link-active dl dd, .foottab ul li:nth-of-type(5) a.router-link-active dl dd{
+    color: #4283eb;
+}
+.lottery .weui-media-box__title.lo-num {
+	color: #4283eb !important;
+}
+.on {
+    color: #4283eb !important;
+    border-bottom: 3px solid #4283eb;
+}
+.number_Kj li.on,.ball span.isclick,.number_Kj .ons1,.ons3{
+	background: linear-gradient(90deg, #4283eb, #05bdfd);
+}
+ .notice .isclick{
+    background-color: linear-gradient(90deg, #4283eb, #05bdfd) !important;
+  }
+
+    #canvas{
+    background: linear-gradient(90deg, #4283eb, #05bdfd);;
+  }
+  .foot p{
+	color: #4283eb;
+  }
+  
+  .ball span.isclick {
+	background: linear-gradient(90deg, #4283eb, #05bdfd) !important;
+	color: #fff;
+} 
+
+.usercontent[data-v-5e71f308] {
+   background: linear-gradient(90deg, #4283eb, #05bdfd);
+}
+.nav ul .isclick[data-v-4b205784] {
+    color: #4283eb;
+    border-bottom: .02rem solid #4283eb;
+}
+.nodatabtn .btn {
+ 
+  background: linear-gradient(90deg, #4283eb, #05bdfd)e;
+}
+#homexia{
+	height:0.65rem;
+	background: url('../../imgs/images/homexia.png') no-repeat;
+	    background-size: 100% 0.64rem;
+}
+.ball span.lo-conright-odds  {
+	color:#4283eb !important;
+}
+.ball span {
+	color: #4283eb;
+}
+.buttonn{
+	background: linear-gradient(90deg, #4283eb, #05bdfd);
+}
+.zhifubank > li > div > img{
+	background: linear-gradient(90deg, #4283eb, #05bdfd);
+	border-radius: 50%;
+}
+.yinhangxinxi > p span:nth-child(3){
+	color: #4283eb !important;
+    border: 1px solid #4283eb;
+}
+.xuanzhong > ul > li > span > img{
+	background: linear-gradient(90deg, #4283eb, #05bdfd);
+	border-radius:50%;
+}
+.navlist li.isclick{
+	color: #4283eb !important;
+    border-bottom: .02rem solid #4283eb !important;
+}
+.main .search > input:nth-child(2){
+	background: linear-gradient(90deg, #4283eb, #05bdfd);
+}
+.affirm input {
+	background: linear-gradient(90deg, #4283eb, #05bdfd);
+}
+.maintop span:nth-child(1){
+		border-bottom: 2px solid #4283eb;
+		color:#4283eb
+}
+
+.button{
+	background: linear-gradient(90deg, #4283eb, #05bdfd);
+}
+.tab .spann{
+	background: linear-gradient(90deg, #4283eb, #05bdfd);
+}
+.xuanma{
+    border: 1px solid #4283eb;
+    color: #4283eb;
+}
+.maintop span:nth-child(1){
+	 border-bottom: 2px solid #4283eb;
+    color: #4283eb;
+}
+.zingd{
+	border: 1px solid #4283eb;
+	color: #4283eb;
+}
+.btnbor{
+	border: 1px solid #4283eb;
+    color: #4283eb !important;
+}
+.nav ul .isclick {
+    color: #4283eb !important;
+    border-bottom: 0.02rem solid #4283eb ;
+} 
+.imgbor{
+	   background: linear-gradient(90deg, #4283eb, #05bdfd);
+    border-radius: 50%;
+}
+.chose-class span.on{
+	  background: linear-gradient(90deg, #4283eb, #05bdfd) !important;
+}
+.trend_nav a.on,.weui-navbar__item.weui-bar__item--on,.list .copy,.details-con-list #copy,.towaytop ul .liborder,.navlist li.isclick,.gamelisttab ul .onpitch,.gamelisttab ul .active,.nav ul .isclick{
+	color: #4283eb !important;
+	border-bottom: 2px solid #4283eb  !important;;
+}
+.details-con-list #copy{
+		border: 0.01rem solid #4283eb !important;
+		border-bottom:  0.01rem solid #4283eb !important;
+}
+.message-con h3.mcon-tit{
+	color:#4283eb;
+}
+.details-num span{
+	color:#4283eb !important;
+}
+.details-table thead{
+	background: linear-gradient(90deg, #4283eb, #05bdfd) !important;
+}
+.periods-right p span{
+	color:#4283eb !important;
+}
+.balance{
+	color:#4283eb !important;
+}
+.footer-content .pspan p span{
+	color:#4283eb !important;
+}
+.confirmbox .confirmtit{
+	color:#4283eb !important;
+}
+.text .sort{
+	border: 0.06rem solid #4283eb;
+}
+.playts:before, .winplay:before, .example:before{
+	    background-color: #4283eb;
+}
+.timecount span:last-child{
+	color: #4283eb !important;
+}
+.liright p{
+	color: #4283eb !important;
+}
+#totalAmount, #totalNum{
+	color: #4283eb !important;
+}
+.enfirmqd{
+	color: #4283eb !important;
+}
+
+
+
+
+
+
+
+
+
+.colorcss{
+	color:#4283eb !important;
+}

@@ -1,0 +1,273 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+			}
+			#box{
+					/*max-width: 640px;*/
+					min-width: 320px;
+					margin: auto;
+					overflow: hidden;
+					/*border:1px solid red;*/
+			    }
+			    
+			body{
+				overflow: hidden;
+				overflow:auto;
+				/*height: 734px;
+				border:1px solid red;*/
+				    		/*background-color: ghostwhite;*/
+	    	}
+	    	#main{
+	    		/* margin-top: 87px; */
+	    		/*overflow: hidden;
+	            overflow:scroll;*/
+	    		/*width: 414px;*/
+	    		/*height: 1184px;*/
+	    		/*height: 600px;*/
+	    		/*padding-bottom: 608px;*/
+	    		/* padding-bottom:540px; */
+	    		/* box-sizing: border-box; */
+	    		/* display: block; */
+	    		
+	    	}
+	    	header{
+	    		height: 0.8rem;
+
+	    		position: fixed;
+                /*background: url('../imgs/images/titlebg.png');*/
+			    width: 100%;
+			    margin-top: 0px;
+			    z-index: 999;
+	    	}
+	    	.Header{
+	    		height: 60px;
+	    		background-image: none;
+			    background-color: #2d2d2d;
+			    /*border: 1px solid #44a133;*/
+			    width: 100%;
+			    bottom: -3px;
+			    position: fixed;
+			    padding-bottom: 5px;
+			    box-sizing: border-box;
+			    /*margin-top: 664px;*/
+			    z-index: 800;
+			    display: flex;
+			    justify-content: space-around;
+	    	}
+	    	
+	    	.Header span{
+	    		display: flex;
+	    		flex-direction: column;
+	    		align-items: center;
+	    		justify-content: space-between;
+	    	}
+	    	.Header span span{
+	    		color: gainsboro;
+	    		font-size: 12px;
+	    		margin-bottom: 10px;
+	    		color: gray;
+	    	}
+	    	.Header span i{
+	    		    width: 38px;
+				    height: 22px;
+				    margin-top: 7px;
+	    	}
+	    	.Header a:nth-of-type(1) i{
+	    		background-image: url('../imgs/images/footer_5_02.png');
+	    		background-size: 336px auto;
+                background-position: -22px -28px;
+	    	}
+	    	.Header a:nth-of-type(2) i{
+	    		background-image: url('../imgs/images/footer_5_02.png');
+	    		background-size: 336px auto;
+                background-position: -87px -28px;
+	    	}
+	    	.Header a:nth-of-type(3) i{
+	    		background-image: url('../imgs/images/footer_5_02.png');
+	    		background-size: 336px auto;
+                background-position: -149px -27px;
+	    	}
+	    	.Header a:nth-of-type(4) i{
+	    		background-image: url('../imgs/images/footer_5_02.png');
+	    		background-size: 336px auto;
+                background-position: -212px -2px;
+	    	}
+	    	.Header a:nth-of-type(4) span{
+	    		color: #F3C302;
+	    	}
+	    	.Header a:nth-of-type(5) i{
+	    		background-image: url('../imgs/images/footer_5_02.png');
+	    		background-size: 336px auto;
+                background-position: -273px -28px;
+	    	}
+	    	.color_species{
+	    	    width: 3rem;
+    height: 0.8rem;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+	    	}
+	    	.color_species span:last-of-type{
+	    		margin-left: 3px;
+	    		transform: rotate(180deg);
+	    		display: inline-block;
+	    	}
+	    	.color_speciesAll{
+	    		position: absolute;
+	    		/*margin-top:-2px ;*/
+	    		top:101%;
+	    		/*left: 18%;*/
+				display: none;
+				height: 3rem;
+				width:100%;
+				/* overflow: scroll; */
+	    	}
+	    	.color_speciesAll ul{
+	    		color: gray;
+				width: 100%;
+				margin: auto;
+				background-color: white;
+				height: 5rem;
+				overflow: scroll;
+				padding-bottom: 0.2rem;
+	    	}
+	    	.color_speciesAll ul li{
+	    		       width: 30%;
+    margin-left: 3%;
+    margin-top: 0.2rem;
+    text-align: center;
+    height: 0.6rem;
+    box-sizing: border-box;
+    line-height: 0.6rem;
+    border: 1px solid #ccc;
+    float: left;
+    border-radius: 5px;
+	    	}
+	    	/*#canvasdiv{
+	    		border:1px solid red;
+	    		overflow: hidden;
+	     
+	            overflow:scroll;
+	    	}*/
+	    	.color_speciesAll li{
+	    		list-style-type: none;
+	    		/*text-align: center;*/
+	    		/*color: white;*/
+	    		font-size: 0.26rem;
+	    	}
+	    	.number_Kj{
+				/*width: 414px;*/
+				margin: auto;
+				padding: 10px 0;
+				/*width: 355px;*/
+				/*overflow: auto;*/
+				/* margin-top: -27px; */
+				-webkit-tap-highlight-color:transparent;
+			}
+			.number_Kj ul{
+				    display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+					width: 100%;
+					/*padding-right: 16px;*/
+					box-sizing: border-box;
+					/*overflow: auto;*/
+			}
+			.number_Kj ul li{
+			        list-style-type: none;
+					margin-top: 5px;
+					border: 1px solid gainsboro;
+					width: 57px;
+					height: 30px;
+					border-radius: 5px;
+					line-height: 30px;
+					text-align: center;
+					float: left;
+					margin-left: 5px!important;
+					margin-right: 5px!important;
+			}
+			.wm_con{
+				/*border:1px solid red;*/
+				padding-right: 2px;
+				box-sizing: border-box;
+	            height: 520px;
+			}
+			.wm_con .wm_ulAll{
+				height: 520px;
+				margin: auto;
+			}
+			/*表格样式*/
+			.wm_con ul{
+				/*height: 25px;*/
+				
+				margin: auto;
+				border-top:1px solid gainsboro;
+				/*display: block;*/
+				display: flex;
+				justify-content: space-between;
+				list-style-type: none;
+			}
+			.wm_con ul:nth-of-type(2n-1){
+				background-color: #f7f7f7;
+			}
+			.wm_con ul:after{
+				content: '';
+				display: block;
+				clear: both;
+			}
+			.wm_con ul li{
+				font-size: 10px;
+				text-align: center;
+				line-height: 25px;
+				float: left;
+				/*width: 25px;*/
+			
+				height: 25px;
+				border-left: 1px solid whitesmoke;
+			}
+			.wm_con ul li:first-of-type{
+				width:80px;
+			}
+            #modal_Box{
+            	display: none;
+			    width: 100%;
+			    height: 100%;
+			    position: absolute;
+			    top: 0;
+			    background-color: rgba(127,127,127,.8);
+			    position: fixed;
+			    z-index: 900;	
+             }
+
+
+
+
+
+#xx{
+	transform: rotate(-2deg);
+	transition: all 0.2s;
+}
+
+	.number_Kj ul li {
+		 font-size: 15px !important;
+	}
+
+
+.color_species p{
+  position: absolute;
+    /* top: 20%; */
+    left: 2%;
+}
+.color_species p i{
+	font-size: 24px!important;
+}
+.color_species a{
+	color: white;
+}

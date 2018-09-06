@@ -1,0 +1,69 @@
+/* 主题背景颜色 */
+.app_bgg{
+		background: linear-gradient(90deg, #fa3956, #ff6b52);
+}
+/* 主题色 */
+.app_color{
+		color: #fa3956;
+}
+.header,
+.wrap-header,
+.alltext .unit .isclick,
+.header_wrap,
+.selectrule ul .isclick,
+.gocolorlist span,
+.footer .isclick,
+.footer-right,
+.loss .isclick,
+.wrap_header,
+.resumebtn,
+.ocontent .btn,
+.oheader,
+.addquebtn,
+.btn input,
+.towaybottom ul .button #btn,
+header,
+/*.btn,*/
+.header-wrap,
+.btn_zf,
+.nodatabtn .btn,
+.index_header,
+.userheader,
+.end .btn input,
+.details_right .btn .reg,
+.affirm input,
+.btn.isclick,
+.weui-tabbar-btn,
+.confirmbox .resumebtn,
+.foot .btn,
+/*.foottab ul li dl dt .dtbg,*/
+.moneybox .confirmimg,
+#loginDiv .details_left img,
+.content .weui-media-box .headimg,
+div.bar-na,
+/*.notice .isclick,*/
+#wx_1,
+#layout .header_wrap,
+.selectorcontent span img,
+.first-one #sk_fz_1,
+.buttom,
+.main-all div:nth-of-type(1),
+.main-all h5:before,
+.yellow,
+.footergg,
+#sk_fz_2,
+.listoper1,
+.longbtn,
+.searbtn,
+.chose-class span.on,
+.details,
+.periodsmax ul li span:nth-of-type(2) div,
+.spansAll,
+.hong
+{
+	/*#da223d红*/
+	/*background-color: #E53333;*/
+	/*background-color: green;*/
+	/*background-color: #349635;*//*绿*/
+    background: linear-gradient(90deg, #fa3956, #ff6b52);
+}

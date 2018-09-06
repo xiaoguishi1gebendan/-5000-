@@ -1,0 +1,585 @@
+
+/*去除ios默认样式*/
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+}
+input{
+    border: 0; /* 方法1 */
+    -webkit-appearance: none; /* 方法2 */
+    -webkit-tap-highlight-color:transparent; /*解决ios中表单中获取焦点时出现的背景阴影*/
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+#layout span{
+	/*font-size: 16px;
+	font-weight: 100;
+	color: gray;*/
+	font-size: 14px;
+     /*font-weight: 100; 
+    color: gray;*/
+}
+
+.ovf{
+	overflow: hidden;
+}
+/*头部*/
+.wrap_header{
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 9999;
+}
+.index_header{
+    width: 100%;
+    height: 4.4rem;
+    /*background: url(/source/imgs/images/titlebg.png) no-repeat 0 0/100% 100%;*/
+    /*background-color: #E53333;*/
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.index_header .login{
+    margin-left: 1.5rem;
+}
+.index_header .login a{
+    display: block;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    color: #fff;
+}
+
+.index_header h3{
+    height: 4.4rem;
+    line-height: 4.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.index_header .mycollect{
+    height: 4.4rem;
+    line-height: 4.4rem;
+    margin-right: 1.1rem;
+}
+.log:after{
+	content: '△';
+    display: block;
+    position: absolute;
+    top: 156px;
+    right: 28px;
+    color: gray;
+    font-size: 25px;
+    transform: rotate(180deg);
+}
+.recharge{
+	width: 100%;
+	height: 96px;
+	background-color: #f5f5f5;
+	margin-top:-2px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 13px;
+	box-sizing: border-box;
+	display: none;
+	position: relative;
+	z-index: 10000;
+	/*border: 1px solid red;*/
+}
+.recharge span{
+	width: 21%;
+	height: 28px;
+	background-color: white;
+	color: #000;
+	text-align: center;
+	line-height: 28px;
+}
+.recharge .on{
+	border:1px solid red;
+	color: red;
+}
+
+.mask{
+	width: 100%;
+	height: 60%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.3);
+	z-index: 888;
+	display: none;
+}
+/*#txt:after{
+	content: 'ajkdnkn';
+	display: block;
+	position: absolute;
+	top:10px;
+	right: 10px;
+	color: #000000;
+}*/
+/*充值部分*/
+/*#torecharge{
+    margin-top: 4.4rem;
+}*/
+
+/*.tomoney{}
+.moneytext{
+    height: 4.4rem;
+    width: 100%;
+    background: #f5f5f5;
+    overflow-y: hidden;
+    position: relative;
+}*/
+/*.moneytext:after{
+	display: block;
+	content: '';
+	height: 0.1rem;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: #ccc;
+	transform: scaleY(0.5);
+}*/
+/*.alltext{
+    margin: 0 auto;
+    height: 4.4rem;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 4.4rem;
+}
+.alltext span{
+    display: block;
+    font-size: 1.6rem;
+    color: #666;
+}
+.alltext span:last-child{
+	color: red;
+}
+.alltext input{
+    text-align: center;
+    border: 0;
+    color: #d91e38;
+    font-weight: 600;
+    font-size: 1.6rem;
+    background: #f5f5f5;
+}*/
+.notarize{
+	padding-left: 25px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 30px;
+}
+.alltext{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding-bottom: 12px;
+}
+.alltext div{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.alltext div span{
+	display: inline-block;
+	line-height: 42px;
+	font-size: 16px;
+	/*font-family: "微软雅黑";*/
+	/*font-weight: 600;*/
+}
+.alltext div input{
+	/*box-shadow:0px 2px 5px 0px gray inset;*/
+	box-sizing: border-box;
+	padding-left: 10PX;
+	/*border-radius: 5px;*/
+	border: 1px solid rgba(127,127,127,.2);
+	line-height: 40px;
+	width: 235px;
+	}
+.alltext div input:focus {
+	outline:none;
+    border: 1px solid #2B9037;
+	}
+.alltext div:nth-of-type(3) input{
+	text-align: center;
+}
+.selectmoney button{
+	margin: auto;
+	margin-top: 10px;
+	display: block;
+	width: 150px;
+	height: 42px;
+	border:none;
+	border-radius: 5px;
+	background: green;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+
+
+
+.selectmoney{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+.selectmoney .moneylist{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.selectmoney li{
+    width: 25%;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.selectmoney li span{
+    display: block;
+    height: 3rem;
+    background: #fff;
+    width: 80%;
+    line-height: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #d91e38;
+    font-size: 1.6rem;
+    border-radius: 3px;
+}
+.selectmoney li .clickli{
+    /*background: red;*/
+   border:1px solid red;
+    color: red!important;
+}
+
+
+.toway{}
+
+.towaytop{
+	width: 100%;
+}
+.towaytop h3{
+    width: 96%;
+    height: 3.1rem;
+    line-height: 3.1rem;
+    color: #666;
+    font-size: 1.6rem;
+    margin: 0 auto;
+}
+.towaylist{
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.towaytop ul{
+	/*width: 100%;
+	height: 54px;
+    background: #fff;
+    text-align: center;
+    display: flex;*/
+    /*padding-left: 20%;*/
+   /*justify-content: space-around!important;*/
+   /*justify-content: center!important;
+   background-color: #fcf3e6;
+   overflow: hidden;*/
+  width:100%;
+  /*display: inline;*/
+  display: flex;
+  white-space: nowrap;
+  overflow-x:scroll;
+  float:left;
+  overflow-y:hidden;
+  height: 48px;
+  justify-content: center!important;
+  /*padding-left: 205px;*/
+  /*box-sizing: border-box;*/
+}
+.towaytop ul:after{
+	display: block;
+	
+	content: '';
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+.towaytop ul li{
+	 display:inline-block;
+	 width:80px!important;
+	 padding-left:6px;
+	 box-sizing: border-box;
+	 height: 31px;
+	 line-height: 31px;
+	 text-align: center;
+	 margin-left: 3%;
+	 margin-right: 3%;
+	 font-size: 15px;
+}
+.towaytop ul .liborder{
+    border-bottom: 0.2rem solid #d91e38;
+    color: #d91e38;
+}
+
+
+.towaybottom{
+    position: relative;
+    width: 100%;
+}
+.towaybottom ul{
+    position: absolute;
+    width: 100%;
+    display: none;
+    margin-top: 0px;
+    padding-bottom: 6px;
+}
+
+.towaybottom .listblock{
+    display: block;
+    background-color: white;
+    /*overflow: scroll;*/
+}
+
+.towaybottom ul li{
+    /*height: 6.5rem;*/
+    margin: 0.5rem auto 0;
+    margin-left: 20px;
+}
+.towaybottom ul a{
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    border-bottom: 1px dashed gainsboro;
+}
+.towaybottom ul a .img{
+    height: 7rem;
+    width: 4rem;
+    /*margin-left: 1.5rem;*/
+}
+.towaybottom ul a img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1.4rem;
+}
+.towaybottom ul  a .hint{
+    height: 6rem;
+    flex: 1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border:1px solid red;*/
+}
+.towaybottom ul .hint h3{
+	margin-top: 1.2rem;
+	font-size: 1.6rem;
+	color: #000;
+}
+.towaybottom ul .hint p{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	color: darkgray;
+	margin-top: 0.45rem;
+	height: 2.4rem;
+	/*overflow: hidden;*/
+}
+/*银行卡支付方式*/
+.towaybottom ul .bank{
+    width: 96%;
+    background: #fff;
+    height: 11.2rem;
+    overflow: hidden;
+    position: relative;
+}
+.towaybottom ul .bank p{
+    height: 2.3rem;
+    line-height: 2.3rem;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+.towaybottom ul .bank p:first-child{
+    margin-top: 1rem;
+}
+.towaybottom .bank p span:first-child{
+    display: inline-block;
+    color: #666;
+    width: 6rem;
+}
+.towaybottom ul .bank p span{
+    margin-left: 1rem;
+}
+
+.towaybottom ul .bank .correct{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid #dcdcdc;
+    border-radius: 50%;
+    top:50%;
+    transform: translateY(-50%);
+    right: 1.5rem;
+}
+.towaybottom ul .bank .correct img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.towaybottom ul .button{
+    margin: 0rem auto 5rem;
+    width: 64%;
+}
+.towaybottom ul .button #btn{
+    height: 4rem;
+    line-height: 4rem;
+    border: 0;
+    background: #2b9037;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 50%;
+}
+/*支付方式没有数据时提示内容*/
+.towaybottom .nodata h4{
+	text-align: center;
+	margin-top: 2rem;
+	color: #000000;
+	font-size: 1.6rem;
+}
+.towaybottom .nodata p{
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	color: #666;
+}
+/*在线支付*/
+.losebox{
+	width: 17rem;
+	height: 13rem;
+	margin: 4rem auto 0;
+}
+
+.losebox img{
+	width: 100%;
+	height: 100%;
+}
+/*.listblock:last-child h4{
+	text-align: center;
+	margin-top: 2rem;
+	color: #000000;
+	font-size: 1.6rem;
+}
+.listblock:last-child p{
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	color: #666;
+}*/
+/*遮罩层*/
+.aide{
+    display: none;
+}
+
+.aidecon{
+    width: 90px;
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    z-index: 1200;
+    border-radius: 4px;
+}
+.aidelist li{
+    border-bottom: 1px solid ghostwhite;
+}
+.aidelist li:last-child{
+    border-bottom: none;
+}
+.aidelist li a{
+    display: block;
+    background: #fff;
+    color: #666;
+    line-height: 40px;
+    text-align: center;
+}
+.aidelist li:first-child a{
+    border-radius: 4px 4px 0 0;
+}
+.aidelist li:last-child a{
+    border-radius: 0 0 4px 4px;
+}
+.triangle-up{
+    position: absolute;
+    top: -11px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 14px solid #fff;
+}
+
+
+/*适配屏幕小于380的终端样式*/
+/*@media screen and (min-width: 320px) and (max-width: 380px){
+    .alltext span{
+            font-size: 1.2rem;
+    }
+    .selectmoney li span{
+        font-size: 1.4rem;
+    }
+    .alltext input{
+        width: 60%;
+    }
+
+    .towaytop ul li{
+        font-size: 1.4rem;
+    }
+}*/
+
+
+
+.log{
+    /*width: 300px;
+    height: 50px;
+     display: flex; 
+    margin: 38px auto;*/
+}
+   
+#layout{
+	/*background: rgba(0,128,0,.5);*/
+	display: flex;
+	box-sizing: border-box;
+	padding-top: 20px;
+	justify-content:space-around;
+}
+#layout span p{
+	text-align: center;
+	color: white;
+}
+#layout span p:nth-child(1){
+	font-weight: bold;
+	font-size: 22px;
+}
+#layout span p:nth-child(2){
+	
+	font-size: 12px;
+}
+#layout span:nth-child(2){
+	width: 1px;
+	height: 60px;
+	background: white;
+}
+.moneytext{
+	/*border:1px solid red;*/
+	position: relative;
+	z-index: 1000;
+}

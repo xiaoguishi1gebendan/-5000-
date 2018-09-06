@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <meta name="full-screen" content="yes">
+      <meta name="viewport minimal-ui" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- <link rel="stylesheet" href="./src/assets/source/css/common/color.css"> -->
+    <title>彩票</title>
+    <style >
+      html,body{-webkit-overflow-scrolling : touch;}
+      *{
+        margin: 0;
+        padding: 0;
+      }
+    
+      ul{
+        list-style: none;
+      }
+      li{
+        list-style: none;
+      }
+      #bppp{
+        position: fixed;
+        top:0;
+        z-index:110000;
+        width: 100%;
+        height:100%;
+        overflow: hidden;
+        background-color: rgba(0,0,0,0.8)!important
+      }
+      #bppp>img{
+      
+        width: 120%;
+        margin-left:-10%;
+        
+      }
+
+      .model{
+         display: none;
+      }
+
+         #cpp{
+        position: fixed;
+        top:0;
+        z-index:110000;
+        width: 100%;
+        height:100%;
+        overflow: hidden;
+       background-color: #fff;
+      }
+      #cpp>img{
+      
+        width: 50%;
+        margin-left:25%;
+        margin-top: 50%;
+        
+      }
+      #is:after{
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        width: 14px;
+        height: 36px;
+        /* border: 1px solid red; */
+        top: -3px;
+        left: 22px;
+        background-color: #7f7f7f;
+        
+      }
+        #iss:after{
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        width: 14px;
+        height: 36px;
+        /* border: 1px solid red; */
+        top: -3px;
+        left: 22px;
+        background-color: #7f7f7f;
+        opacity: 0.9;
+      }
+      @-webkit-keyframes gogogo {
+			 	0%{
+			        -webkit-transform: rotate(0deg);
+			    }
+			    50%{
+			        -webkit-transform: rotate(180deg);
+			    }
+			    100%{
+			        -webkit-transform: rotate(360deg);
+			    }
+			}
+        .loading {
+            position: fixed;
+            z-index: 99;
+            top: 40%;
+            left: 50%;
+            margin-left: -15px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+               border: 5px solid #797979;
+           border-left: 5px solid #fff;
+            animation: load 0.5s linear infinite;
+            -moz-animation: load 0.5s linear infinite;
+            -webkit-animation: load 0.5s linear infinite;
+            -o-animation: load 0.5s linear infinite;
+        }
+    
+        @-webkit-keyframes load {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    
+        @-moz-keyframes load {
+            from {
+                -moz-transform: rotate(0deg);
+            }
+            to {
+                -moz-transform: rotate(360deg);
+            }
+        }
+    
+        @-o-keyframes load {
+            from {
+                -o-transform: rotate(0deg);
+            }
+            to {
+                -o-transform: rotate(360deg);
+            }
+        }
+    </style>
+  </head>
+  <body style="height:100%;" >  
+    <!-- <script src="https://lottery-bucket.oss-cn-hongkong.aliyuncs.com/upload/project/jsSupport/vue.min.js"></script> -->
+    <!-- <script src="https://lottery-bucket.oss-cn-hongkong.aliyuncs.com/upload/project/jsSupport/vue-router.min.js"></script>
+        <script src="https://lottery-bucket.oss-cn-hongkong.aliyuncs.com/upload/project/jsSupport/vuex.min.js"></script> 
+        <script src="https://lottery-bucket.oss-cn-hongkong.aliyuncs.com/upload/project/jsSupport/jquery.min.js"></script> -->
+
+  <!-- cdn链接 -->
+        <script src="https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.min.js"></script>
+        <script src="https://cdn.bootcss.com/vuex/3.0.1/vuex.min.js"></script>
+        <script src="https://cdn.bootcss.com/vue-router/3.0.1/vue-router.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+        <script src="https://cdn.bootcss.com/moment.js/2.22.1/moment.min.js"></script>
+        <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+        <!-- <link href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet"> -->
+        <!-- <script src="https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.js"></script> -->
+<!-- c39链接 -->
+        <!-- <script src="https://www.38899a.com/upload/project/jsSupport/vue.min.js"></script>
+        <script src="https://www.38899a.com/upload/project/jsSupport/vuex.min.js"></script>
+        <script src="https://www.38899a.com/upload/project/jsSupport/vue-router.min.js"></script>
+        <script src="https://www.38899a.com/upload/project/jsSupport/jquery.min.js"></script>
+        <script src="https://www.38899a.com/upload/project/jsSupport/fastclick.min.js"></script>
+        <script src="https://www.38899a.com/upload/project/jsSupport/moment.min.js"></script> -->
+        
+    <div style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 9999;display:block" id="bpp">
+        <span style="position: fixed;width:100%;height:100%;background:  rgba(0,0,0,.3);;top:0"></span>
+        <div class="loading" ></div>
+    </div>
+    <div id="app" style="position: absolute;">   </div>
+    <div style="width: 100%;height: 100%;background-color: rgba(255,255,255,.5);position: absolute;top: 0;left: 0;z-index: 9999;" class="model" id="model">
+      <span id="spanimg" style="display:block;width: 75px;height: 48px;text-align: center;background-color: #7f7f7f;border-radius: .05rem;z-index: 9999;padding-top: 0.1rem; margin: 70% auto;"> 
+      <i id="is" style="display:block;width: 30px;height: 30px;border-radius: 50%;border:5px solid white;margin:auto;position: relative;-webkit-animation:gogogo 0.9s infinite linear ;"></i>
+    </span>
+  </div>
+    
+  </body>
+  
+</html>
+<script>
+
+
+
+  
+</script>

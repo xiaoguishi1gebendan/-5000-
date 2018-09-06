@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+header{
+	width: 100%;
+	height: 2.75rem;
+	background-color: #349635;
+	line-height: 2.8rem;
+	text-align: center;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: 16px;
+	font-weight: 600;
+	font-size: 18px;
+}
+.main{
+	padding-top: 52.8px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.timessj{
+	color: grey;
+	font-size: 13px;
+}
+.mains .zj{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #111111;
+	letter-spacing: 0;
+	/*line-height: 32px;*/	
+}
+.mains{
+	/*border-bottom: 1px solid #eee;*/
+	width: 100%;
+	height: 5rem;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border-radius: 0.4rem 0 0 0.4rem;
+}
+.draw{
+	display: inline-block;
+    /*border: 1px solid #349635;*/
+    /*color: #349635;*/
+    /*width: 71px;*/
+    /*height: 20px;*/
+    text-align: center;
+    /*line-height: 20px;*/
+    /*margin-left: 40%;*/
+    line-height: 5rem;
+    font-size: 13px;
+    border-radius: 0 0.4rem 0.4rem 0;
+    color: white;
+    background-color: orange;
+}
+.mtk{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+.mtkmin{
+	width: 72%;
+    height: 18%;
+    background-color: white;
+    margin: 70% auto;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.mtkmin .span1{
+	color: gray;
+	font-size: 14px;
+}
+.as{
+	text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    top: 0%;
+    color: white;
+}
+.as i{
+	font-size: 24px;
+}
+#no-messagc{
+	font-size: 18px;
+	text-align: center;
+	margin: 70% 0 50% 0;
+}

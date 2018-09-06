@@ -1,0 +1,160 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+
+#layout {
+	width: 100%;
+	height: 100%;
+}
+
+.header_wrap {
+	width: 100%;
+	/*background: url(/source/imgs/images/titlebg.png) no-repeat 0 0/100% 100%;*/
+	position: relative;
+	z-index: 100;
+}
+
+.header {
+	height: 4.4rem;
+	position: relative;
+}
+
+.header h2 {
+	margin: 0 auto;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.8rem;
+}
+
+.header .set {
+	position: absolute;
+	left: 1.5rem;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+
+.header .set i {
+	font-size: 2.4rem;
+}
+
+
+/*主内容区*/
+
+.content {}
+
+/*开奖号码*/
+.hong,
+.lan,
+.lv,
+.hui {
+	width: 2.4rem;
+	height: 2.4rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 2.4rem;
+	float: left;
+	margin-left: 0.5rem;
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+.hong {
+	background: #d91e38;
+}
+
+.lan {
+	background: blue;
+}
+
+.lv {
+	background: green;
+}
+
+.hui {
+	background: #919191;
+}
+#jia{
+	background: #fff;
+	color: #111;
+	font-weight: 600;
+	font-size: 1.6rem;
+}
+.list{
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.lotterlist{
+	padding-bottom: 4.4rem;
+}
+.lotterlist li{
+	height: 8rem;
+	background: #fff;
+    border-bottom: 1px solid ghostwhite;
+	overflow: hidden;
+}
+.liwrap{
+	margin: 0 1.5rem;
+}
+.litop{
+	margin-top: 0.8rem;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	display: flex;
+	justify-content: space-between;
+	color: #999;
+	font-size: 1.2rem;
+}
+
+.libottom{
+	/*margin-top: 0.8rem;*/
+	height: 2.4rem;
+}
+.libottom .num_1{
+	float: left;
+}
+.libottom .num_1>div:first-child{
+	margin-left: 0;
+}
+
+.libottom>span{
+	display: block;
+	float: left;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	margin-left: 1rem;
+	font-size: 1.2rem;
+	color: #111;
+	font-weight: 400;
+	
+}
+.libottom .res{
+	color: #111;
+}
+
+.libottom .num_2{
+	height: 2.4rem;
+	float: left;
+}
+.libottom .num_2 .saizi{
+	float: left;
+	width: 2.4rem;
+	height: 2.4rem;
+	margin-left: 0.45rem;
+}
+.libottom .num_2 img{
+	width: 100%;
+	height: 100%;
+}
+.libottom .num_2 .saizi:first-child{
+	margin-left: 0;
+}
